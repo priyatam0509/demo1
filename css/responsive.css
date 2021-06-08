@@ -968,7 +968,16 @@
         font-size: 20px;
         line-height: 24px;
     }
-
+    .banner_list .banner_txt h4{
+        margin: 0 0 20px 0;
+        padding: 0;
+        font-size: 28px;
+        line-height: 18px;
+        font-family: sans-serif;
+        color:black;
+        text-align: center;
+       
+    }
     .banner_list .banner_txt .green_btn,
     .banner_list .banner_img,
     .aboutbanner_info h3,
