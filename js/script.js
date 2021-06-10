@@ -104,12 +104,12 @@ $(function() {
             });
         });
 
-        var target4 = 0 - parseInt($('.puttheirfaith_info .puttheirfaith_bg').width()) / 8;
-        $('.puttheirfaith_info .puttheirfaith_bg').stop().animate({"margin-top": target4}, 1000, function(){
-            $(this).animate({"margin-top": 0}, 1000, function(){
-                animation();
-            });
-        });
+        // var target4 = 0 - parseInt($('.puttheirfaith_info .puttheirfaith_bg').width()) / 8;
+        // $('.puttheirfaith_info .puttheirfaith_bg').stop().animate({"margin-top": target4}, 1000, function(){
+        //     $(this).animate({"margin-top": 0}, 1000, function(){
+        //         animation();
+        //     });
+        // });
 
         var target5 = 0 - parseInt($('.theinceptionjourney_info .theinceptionjourney_bg').width()) / 8;
         $('.theinceptionjourney_info .theinceptionjourney_bg').stop().animate({"margin-top": target5}, 1000, function(){

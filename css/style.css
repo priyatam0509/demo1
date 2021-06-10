@@ -275,31 +275,32 @@ header:after,
 
 .logo_info {
     float: left;
-    width: 300px;
-    margin: 10px 105px 0 0;
+    /* width: 300px;
+    margin: 10px 105px 0 0; */
     
 }
 
 .logo_info img {
     display: block;
     margin: 0;
-    width: 300px;
+    width: 280px;
+    margin-left: 10px;
 }
 
 .nav_info {
     float: right;
-    margin-right:-290px;
-    padding: 12px 0 0 0;
+ 
+    
 }
 
 .nav_info ul {
-    margin: 0;
+    margin: 0 100px 0 0;
     padding: 0;
     list-style: none;
 }
 
 .nav_info ul li {
-    margin: 0 20px 0 0;
+    margin: 0 30px 0 0;
     padding: 0px;
     display: inline-block;
     vertical-align:right;
@@ -309,7 +310,7 @@ header:after,
 }
 
 .nav_info ul li:last-child {
-    margin: 14px;
+    margin: 0px;
     font-weight: 30000px;
  
 }
@@ -412,14 +413,15 @@ header:after,
 
 .banner_info {
     width: 100%;
-    margin: 0 0 70px 0;
+    margin: -80px 0px 70px 0;
     position: relative;
+    min-width: 900px;
 }
 
 .banner_list {
     width: 100%;
     position: relative;
-    min-height: 600px;
+    min-height: 400px;
 }
 
 .banner_list .banner_img {
@@ -548,7 +550,7 @@ header:after,
 .banner_list .banner_txt h2 {
     margin: 0 0 20px 0;
     padding: 0;
-    font-size: 68px;
+    font-size: 52px;
     line-height: 58px;
     font-family: sans-serif;
     color:black;
@@ -566,20 +568,19 @@ header:after,
    
 }
 
-.banner_list .banner_txt h3 span {
+/* .banner_list .banner_txt h3 span {
     color: #EAAF00;
-}
+} */
 
-.banner_list .banner_txt h6 {
-    font-weight: 10;
-    
-      font-size: 30px;
-      color:yellowgreen;
-      padding: 19px 10px;
-      text-align: center;
-      font-family: 'Courier New', Courier, monospace;
-      font-weight: bold;
-      margin-top: -10px;
+.banner_list .banner_txt p {
+   
+      color:#828287;
+      letter-spacing: 0.7px;
+      font-size: 20px;
+      font-weight: 400;
+      justify-content:center;
+      line-height: 18px;
+      
 }
 
 .banner_list .banner_txt .green_btn {
@@ -992,7 +993,7 @@ header:after,
 .puttheirfaith_info {
     width: 100%;
     text-align: center;
-    background: url("../images/peopleaboutninjacart_topbg.png") 0 bottom no-repeat;
+    /* background: url("../images/peopleaboutninjacart_topbg.png") 0 bottom no-repeat; */
     padding: 70px 0;
     position: relative;
 }
@@ -1009,7 +1010,7 @@ header:after,
     width: 188px;
     height: 278px;
     content: "";
-    background: url("../images/puttheirfaith_bg.png") 0 0 no-repeat;
+    /* background: url("../images/puttheirfaith_bg.png") 0 0 no-repeat; */
     z-index: 1;
 }
 

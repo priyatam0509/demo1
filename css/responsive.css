@@ -5,11 +5,54 @@
     }
 }
 @media (max-width: 1500px) {
+    .banner_info {
+        width: 100%;
+        margin: 60px 0px 70px 0;
+        position: relative;
+        min-width: 900px;
+    }
+    
+    .banner_list {
+        width: 100%;
+        position: relative;
+        min-height: 400px;
+    }
+    .logo_info {
+        margin: 2px 5px 0 0;
+    }
+    .logo_info img {
+        display: block;
+        margin: 0;
+        width: 210px;
+        margin-left: 60px;
+    }
+    .nav_info ul {
+        margin: 0 100px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+    
     .nav_info ul li {
-        margin: 0 20px 0 0;
+        margin: 0 30px 0 0;
+        padding: 0px;
+        display: inline-block;
+        vertical-align:right;
+        font-size: 19px;
+        color: #66BB6A;
+        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .nav_info ul li:last-child {
+        margin: 0px;
+        font-weight: 30000px;
+     
     }
     .ourteam_details {
         padding: 0;
+    }
+    .banner_list {
+        min-height: 400px;
+        margin-top: -80px;
     }
 
     .ourteam_detailsview {
@@ -51,8 +94,50 @@
 }
 
 @media (max-width: 1400px) {
+    .banner_info {
+        width: 100%;
+        margin: 1px 100px 190px 0;
+        position: relative;
+        min-width: 400px;
+        
+    }
+    
     .banner_list {
-        min-height: 500px;
+        width: 100%;
+        position: relative;
+        min-height: 400px;
+        margin-top: 39px;
+        margin-bottom: -10px;
+    }
+    .logo_info {
+        margin: 2px 5px 0 0;
+    }
+    .logo_info img {
+        display: block;
+        margin: 0;
+        width: 210px;
+        margin-left: 100px;
+    }
+    .nav_info ul {
+        margin: 0 100px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .nav_info ul li {
+        margin: 0 30px 0 0;
+        padding: 0px;
+        display: inline-block;
+        vertical-align:right;
+        font-size: 19px;
+        color: #66BB6A;
+        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .nav_info ul li:last-child {
+        margin: 0px;
+        font-weight: 30000px;
+     
     }
 
     .banner_list .banner_txt {
@@ -105,7 +190,37 @@
     }
 
     .logo_info {
-        margin: 2px 25px 0 0;
+        margin: 2px 5px 0 0;
+    }
+    .logo_info img {
+        display: block;
+        margin: 0;
+        width: 210px;
+        margin-left: 160px;
+    }
+    .nav_info ul {
+        margin: 0 200px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .nav_info ul li {
+        margin: 0 30px 0 0;
+        padding: 0px;
+        display: inline-block;
+        vertical-align:right;
+        font-size: 19px;
+        color: #66BB6A;
+        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .nav_info ul li:last-child {
+        margin: 0px;
+        font-weight: 30000px;
+     
+    }
+    .banner_list {
+        min-height: 350px;
     }
 
     .ourstandpoint_info .freshproducesupply_inner .freshproducesupply_bg {
@@ -189,16 +304,37 @@
         margin: 2px 40px 0 0;
     }
 
-    .nav_info ul li {
+    /* .nav_info ul li {
         margin: 0 20px 0 0;
+    } */
+    .nav_info ul {
+        margin: 0 200px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .nav_info ul li {
+        margin: 0 30px 0 0;
+        padding: 0px;
+        display: inline-block;
+        vertical-align:right;
+        font-size: 19px;
+        color: #66BB6A;
+        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .nav_info ul li:last-child {
+        margin: 0px;
+        font-weight: 30000px;
+     
     }
 
     .banner_info {
-        margin: 0 0 40px 0;
+        margin: 0 0 50px 0;
     }
 
     .banner_list {
-        min-height: 400px;
+        min-height: 300px;
     }
 
     .banner_list .banner_txt {
@@ -206,19 +342,39 @@
     }
 
     .banner_list .banner_txt .banner_txtinner {
-        max-width: 30%;
+        max-width: 100%;
     }
 
-    .banner_list .banner_txt h3 {
-        font-size: 32px;
-        line-height: 12px;
-        margin: 0 0 20px 0;
+    .logo_info img {
+        display: block;
+        margin: 0;
+        width: 210px;
+        margin-left: 160px;
     }
 
-    .banner_list .banner_txt h6 {
-        margin: 0 0 20px 0;
+    .banner_list .banner_txt h2 {
+        font-size: 40px;
+        line-height: 44px;
+        visibility: visible;
     }
 
+    .banner_list .banner_txt p {
+        visibility: visible;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .banner_list .banner_txt h4{
+        /* margin: 0 20px 40px 0; */
+       
+      
+        
+        font-size: 18px;
+        line-height: 38px;
+        font-family: sans-serif;
+        color:black;
+        text-align: center;
+       
+    }
     .creatingopportunities_title {
         margin: 0 0 40px 0;
     }
@@ -937,7 +1093,7 @@
     }
 
 }
-
+/* its mobile responsive  */
 @media (max-width: 767px) {
     .banner_list {
         min-height: 250px;
@@ -956,22 +1112,30 @@
         
         
     }
+    .logo_info img {
+        display: block;
+        margin: 0;
+        width: 280px;
+        margin-left: 10px;
+    }
 
-    .banner_list .banner_txt h1 {
-        font-size: 10px;
+    .banner_list .banner_txt h2 {
+        font-size: 20px;
         line-height: 4px;
         visibility: visible;
     }
 
-    .banner_list .banner_txt h6 {
+    .banner_list .banner_txt p {
         visibility: visible;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 15px;
+        line-height: 15px;
     }
     .banner_list .banner_txt h4{
-        margin: 0 0 20px 0;
+        /* margin: 0 20px 40px 0; */
+        margin-top: -12px;
+        margin-bottom: 109px;
         padding: 0;
-        font-size: 28px;
+        font-size: 18px;
         line-height: 18px;
         font-family: sans-serif;
         color:black;
