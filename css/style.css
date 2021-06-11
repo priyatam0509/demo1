@@ -306,7 +306,7 @@ header:after,
     vertical-align:right;
     font-size: 25px;
     color: #66BB6A;
-    font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:montserrat light;
 }
 
 .nav_info ul li:last-child {
@@ -415,13 +415,14 @@ header:after,
     width: 100%;
     margin: -80px 0px 70px 0;
     position: relative;
-    min-width: 900px;
+ 
 }
+
 
 .banner_list {
     width: 100%;
     position: relative;
-    min-height: 400px;
+    min-height: 860px;
 }
 
 .banner_list .banner_img {
@@ -536,7 +537,7 @@ header:after,
     top: 0;
     left: 0;
     width: 100%;
-    padding: 210px 0 0 0;
+    padding: 410px 0 0 0;
     z-index: 2;
 }
 
@@ -548,21 +549,21 @@ header:after,
 }
 
 .banner_list .banner_txt h2 {
-    margin: 0 0 20px 0;
+    margin-top: -80px;
     padding: 0;
-    font-size: 52px;
-    line-height: 58px;
-    font-family: sans-serif;
+    font-size: 55px;
+    line-height: 98px;
+    font-family: montserrat light;
     color:black;
     text-align: center;
    
 }
 .banner_list .banner_txt h4{
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     padding: 0;
     font-size: 28px;
-    line-height: 18px;
-    font-family: sans-serif;
+    line-height: 48px;
+    font-family: montserrat light ;
     color:black;
     text-align: center;
    
@@ -579,7 +580,11 @@ header:after,
       font-size: 20px;
       font-weight: 400;
       justify-content:center;
-      line-height: 18px;
+      line-height: 38px;
+      text-align:center;
+    margin-bottom: 100px;
+    font-family:montserrat light ;
+
       
 }
 
@@ -996,6 +1001,7 @@ header:after,
     /* background: url("../images/peopleaboutninjacart_topbg.png") 0 bottom no-repeat; */
     padding: 70px 0;
     position: relative;
+    background: whitesmoke;
 }
 
 .puttheirfaith_info .container_info {
@@ -1521,7 +1527,7 @@ footer {
     margin: 0 0 20px 0;
     padding: 0;
     font-size: 16px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .footer_companylegallist ul,
@@ -1551,7 +1557,7 @@ footer {
     margin: 0 0 20px 0;
     padding: 0;
     font-size: 16px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .footer_sociallist ul li {
@@ -1613,12 +1619,12 @@ footer {
     padding: 0;
     font-size: 18px;
     line-height: 24px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .footer_reachus_list h6 span {
     font-size: 16px;
-    font-family: 'chivoregular';
+    font-family: montserrat light;
     font-weight: normal;
 }
 
@@ -1703,7 +1709,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     visibility: hidden;
 }
 
@@ -4446,22 +4452,22 @@ footer {
 	color: #fff;
     font-size: 35px;
     padding-bottom: 12px;
-    font-family: sans-serif;
+    font-family: montserrat light;
 }
 .section-newsletter p{
     color: #fff;
-    font-family: monosterrat,sans-serif;
+    font-family: montserrat light;
 }
 .newsletter-form input{
     padding: 20px;
     width: 215px;
 	margin-right:10px;
 	margin-top:15px;
-    font-family: monosterrat,sans-serif;
+    font-family: montserrat light;
 }
 .newsletter-form select{
 	margin-top:15px;
-    font-family: monosterrat,sans-serif;
+    font-family: montserrat light;
     color: lightslategrey;
 }
 
@@ -4560,14 +4566,17 @@ padding-bottom:12px;}
 	text-align:center;
 }
 .coverage-content{
-    padding:0px 100px
+    padding:0px 0px;
+    margin-top: -55px;
+    
 }
 .coverage-content p , span{
 	color: black;
     letter-spacing: 0.7px;
     font-size: 20px;
     font-weight: 400;
-	justify-content:center;
+	
+    text-align: center;
     /*font-size: 23px;
     font-weight: 500;
     font-family: 'Cormorant Unicase', serif;*/
@@ -4613,35 +4622,43 @@ padding-bottom:12px;}
 .nav_info ul li.main-nav a  {
     color: white
 } */
-/* .main-navv a {
+.main-navv a {
     
     text-decoration: none;
-   font-size: 14px;
-   font-family:montserrat,sans-serif;
+   
+   
     padding: 8.5px;
-    display: block;
+    
     background-color:white;
     border: 1px solid #333;
+    border-radius: 1px;
+    
    padding-left: 25px;
    padding-right: 25px;
    
-   padding-top: -100px;
+   
     
-
+     margin: 0 10px 0 0;
+ 
+     display: inline-block;
+    
+     font-size: 25px;
+     color: #66BB6A;
+     font-family:montserrat light;
 
     
   }
   
-  .main-navv a:hover {
-    background-colorb;
+  .nav_info ul li.main-navv a:hover {
+    color: green;
     border: 1px solid #333;
-    color: white;
+    color: #66BB6A;
    
   }
   .nav_info ul li.main-navv ,
 .nav_info ul li.main-navv a  {
-    color: black
-} */
+    color: black;
+}
 /* .nav_info ul li a:hover{
     color: greenyellow;
 }  */
@@ -4688,6 +4705,7 @@ padding-bottom:12px;}
     text-align: left;
     margin-left: 400px;
    margin-top: -120px;
+   font-family: montserrat light;
 }
 
 .new-footer-end-section-inner p{
@@ -4699,10 +4717,12 @@ padding-bottom:12px;}
     text-align: left;
     margin-left: 400px;
     margin-right: 100px;
+    font-family: montserrat light;
    
 }
 .new-footer-end-section-inner a{
     color:green;
+    font-family: montserrat light;
 }
 .undermanagement h1{
     padding: 0;
@@ -4952,4 +4972,107 @@ footer {
 
 .footer_bottom .footer_copyright ul li a:hover {
     color: #66BB6A;
+} */
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    margin-top: -70px;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {color: black;
+    letter-spacing: 0.7px;
+    font-size: 20px;
+    font-weight: 400;
+	
+    text-align: center;}
+  
+  /* Add a blue color to the author */
+  .author {color: black;
+    letter-spacing: 0.7px;
+    font-size: 20px;
+    font-weight: 400;
+	
+    text-align: center;}
+
+  /* .coverage-content{
+    padding:0px 0px;
+    margin-top: -55px;
+    
+}
+.coverage-content p , span{
+	color: black;
+    letter-spacing: 0.7px;
+    font-size: 20px;
+    font-weight: 400;
+	
+    text-align: center;
+    /*font-size: 23px;
+    font-weight: 500;
+    font-family: 'Cormorant Unicase', serif;*/
 } */
