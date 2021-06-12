@@ -82,7 +82,7 @@ a {
 }
 
 body {
-    font-family: 'chivoregular';
+    font-family: montserrat light;;
     font-size: 16px;
     color: #000;
     background: #fff;
@@ -641,7 +641,7 @@ header:after,
     margin: 0 0 30px 0;
     padding: 0;
     font-size: 36px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .creatingopportunities_title p {
@@ -708,7 +708,7 @@ header:after,
     padding: 0 0 10px 0;
     font-size: 18px;
     color: #000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -732,7 +732,7 @@ header:after,
     font-size: 16px;
     line-height: 24px;
     color: #263238;
-    font-family: 'chivolight';
+    font-family: montserrat light;
     position: relative;
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
@@ -788,7 +788,7 @@ header:after,
     margin: 0 0 30px 0;
     padding: 0;
     font-size: 36px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .lifeatninjacart_title p {
@@ -862,7 +862,7 @@ header:after,
     text-transform: uppercase;
     line-height: 24px;
     position: relative;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     letter-spacing: 3px;
 }
 
@@ -888,7 +888,7 @@ header:after,
     padding: 0;
     font-size: 31px;
     line-height: 40px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     position: relative;
 }
 .lifeatninjacart_list ul li .lifeatninjacart_listcont .knowmore_btn {
@@ -946,7 +946,7 @@ header:after,
     padding: 0;
     font-size: 36px;
     line-height: 40px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     color: #000;
 }
 
@@ -1024,7 +1024,7 @@ header:after,
     margin: 0 0 30px;
     padding: 0;
     font-size: 36px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .puttheirfaith_info ul {
@@ -1051,7 +1051,7 @@ header:after,
     padding: 0 0 0 20px;
     font-size: 36px;
     line-height: 45px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .peopleaboutninjacart_list {
@@ -1178,7 +1178,7 @@ body.careers .peopleaboutninjacart_list .slick-arrow {
 .peopleaboutninjacart_list .peopleaboutninjacart_listview h5 {
     padding: 0;
     color: #66BB6A;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     font-size: 26px;
     line-height: 35px;
     margin: 0 0 20px 0;
@@ -1242,7 +1242,7 @@ body.careers .peopleaboutninjacart_list .slick-arrow {
     padding: 0;
     font-size: 36px;
     line-height: 45px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     color: #000;
 }
 
@@ -1756,7 +1756,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .theinceptionjourney_info p {
@@ -1774,7 +1774,7 @@ footer {
 .theinceptionjourney_info a {
     color: #66BB6A;
     text-decoration: none;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .theinceptionjourney_info a:hover {
@@ -1882,7 +1882,7 @@ footer {
     font-size: 24px;
     line-height: 44px;
     color: #000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -1900,7 +1900,7 @@ footer {
     font-size: 16px;
     line-height: 24px;
     color: #828287;
-    font-family: 'chivolight';
+    font-family: montserrat light;
     position: relative;
     transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
@@ -1946,7 +1946,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     text-align: center;
 }
 
@@ -2002,7 +2002,7 @@ footer {
 
 .growthdevelopment_list .growthdevelopment_cont h6 span {
     color: #66BB6A;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .growthdevelopment_list.growthdevelopment_list1 {
@@ -2134,7 +2134,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .ourstandpoint_cont p {
@@ -2148,7 +2148,7 @@ footer {
 .ourstandpoint_cont .readmore_btn {
     color: #66BB6A;
     text-decoration: none;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .ourstandpoint_info .freshproducesupply_inner {
@@ -2175,7 +2175,7 @@ footer {
     margin: 0 0 35px;
     padding: 0;
     font-size: 36px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     color: #000;
 }
 
@@ -2234,7 +2234,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     text-align: center;
 }
 
@@ -2281,7 +2281,7 @@ footer {
     margin: 0 0 50px 0;
     padding: 0;
     font-size: 56px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     text-align: center;
 }
 
@@ -2383,7 +2383,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     text-align: center;
 }
 
@@ -2446,7 +2446,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .meanstoninja_info p {
@@ -2459,7 +2459,7 @@ footer {
 
 .meanstoninja_info p strong,
 .meanstoninja_info p b {
-    font-family: 'chivobold';
+    font-family: montserrat light;
     font-weight: normal;
     color: #66BB6A;
 }
@@ -2499,7 +2499,7 @@ footer {
     padding: 0;
     font-size: 26px;
     line-height: 35px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .careerbanner_info .careerbanner_cont p {
@@ -2637,7 +2637,7 @@ footer {
     padding: 0;
     font-size: 26px;
     line-height: 36px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .people_list ul li p {
@@ -2693,7 +2693,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .ourteam_list {
@@ -2831,7 +2831,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .ourteam_detailsviewcontinner p {
@@ -2907,7 +2907,7 @@ footer {
     padding: 0;
     font-size: 46px;
     line-height: 64px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .maurisnontempor_list p {
@@ -3039,7 +3039,7 @@ footer {
     padding: 0;
     font-size: 26px;
     line-height: 35px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .customer_seller_cont .learnmore_btn {
@@ -3134,7 +3134,7 @@ footer {
     padding: 0;
     font-size: 26px;
     line-height: 35px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .innerpagebuy_bannerinner p {
@@ -3149,7 +3149,7 @@ footer {
     padding: 0;
     font-size: 17px;
     line-height: 32px;
-    font-family: 'chivobold';
+    font-family:montserrat light;
 }
 
 .reasonstobuy_list {
@@ -3353,7 +3353,7 @@ footer {
     margin: 0 0 20px 0;
     padding: 0;
     font-size: 35px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     color: #2B292D;
     text-align: center;
 }
@@ -3412,7 +3412,7 @@ footer {
     font-size: 16px;
     font-weight: normal;
     color: #000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .needmorehelp_form ul li .needmorehelp_input {
@@ -3425,7 +3425,7 @@ footer {
     padding: 0 20px;
     font-size: 18px;
     color: #000;
-    font-family: 'chivoregular';
+    font-family: montserrat light;
 }
 
 .needmorehelp_form ul li div.error {
@@ -3466,7 +3466,7 @@ footer {
     border: 0;
     color: #fff;
     font-size: 18px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -3517,7 +3517,7 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 35px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     padding: 30px 0;
     border-bottom: 1px solid rgba(151, 151, 151, 0.5);
 }
@@ -3531,14 +3531,14 @@ footer {
     margin: 0 0 20px 0;
     padding: 0;
     font-size: 26px;
-    font-family: 'chivobold';
+    font-family:montserrat light;
 }
 
 .privacypolicy_list h6 {
     margin: 50px 0 20px 0;
     padding: 0;
     font-size: 17px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .privacypolicy_list p {
@@ -3552,7 +3552,7 @@ footer {
 .privacypolicy_list p b {
     font-weight: normal;
     color: #000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .privacypolicy_list a {
@@ -3607,7 +3607,7 @@ footer {
     font-size: 16px;
     font-weight: normal;
     color: #000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .writetous_form ul li .needmorehelp_input {
@@ -3620,7 +3620,7 @@ footer {
     padding: 0 15px;
     font-size: 18px;
     color: #000;
-    font-family: 'chivoregular';
+    font-family: montserrat light;
 }
 
 .writetous_form ul li textarea.needmorehelp_input {
@@ -3644,7 +3644,7 @@ footer {
     border: 0;
     color: #fff;
     font-size: 18px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -3731,7 +3731,7 @@ footer {
 .medialist_info ul li .medialist_cont {
     float: left;
     width: 60%;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .medialist_info ul li .medialist_readmore {
@@ -3739,7 +3739,7 @@ footer {
     width: 20%;
     text-align: right;
     color: #66BB6A;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .medialist_info ul li .medialist_readmore a {
@@ -3843,7 +3843,7 @@ footer {
     line-height: 20px;
     color: #828287;
     font-weight: normal;
-    font-family: 'chivomedium';
+    font-family: montserrat light;
 }
 
 .mediagrid_info ul li h6 {
@@ -3852,7 +3852,7 @@ footer {
     font-size: 17px;
     line-height: 24px;
     color: #000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .mediagrid_info ul li .readmore_btn {
@@ -3910,7 +3910,7 @@ footer {
     margin: 0 0 30px;
     padding: 0;
     font-size: 35px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .gotquestions_info p {
@@ -3923,7 +3923,7 @@ footer {
 .gotquestions_info p a {
     color: #66BB6A;
     text-decoration: none;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .gotquestions_infoview {
@@ -3977,7 +3977,7 @@ footer {
 
 .filterbycategory_listinner ul li.active {
     color: #000000;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .filterbycategory_listinner ul li.active:after {
@@ -4021,7 +4021,7 @@ footer {
     padding: 10px 40px 10px 0;
     position: relative;
     font-size: 26px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     cursor: pointer;
 }
 
@@ -4057,7 +4057,7 @@ footer {
     margin: 0 0 30px 0;
     padding: 0;
     font-size: 36px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .careertheideasolution_info ul {
@@ -4144,7 +4144,7 @@ footer {
     font-size: 26px;
     line-height: 26px;
     color: #16314d;
-    font-family: 'chivobold';
+    font-family: montserrat light;
     text-align: left;
 }
 
@@ -4171,7 +4171,7 @@ footer {
     line-height: 22px;
     color: #333;
     text-align: left;
-    font-family: 'chivolight';
+    font-family: montserrat light;
 }
 
 .careertheideasolution_info ul li .theideasolution_listview:hover .careertheideasolution_desc {
@@ -4336,7 +4336,7 @@ footer {
     padding: 0;
     font-size: 35px;
     line-height: 44px;
-    font-family: 'chivobold';
+    font-family: montserrat light;
 }
 
 .topmanagement_detailsview .topmanagement_detailscont p {
@@ -4629,7 +4629,7 @@ padding-bottom:12px;}
 	/*padding-top: 40px;*/
 	text-align:center;
     margin-bottom: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: montserrat light;
     font-weight: 200;
 }
 .second-iocon{
@@ -4684,7 +4684,7 @@ padding-bottom:12px;}
     padding: 0;
     font-size: 58px;
     line-height: 108px;
-    font-family: sans-serif;
+    font-family: montserrat light;
     color:white;
     text-align:center;
 }
@@ -4757,7 +4757,7 @@ footer {
 .footer_companylegallist1 h3{
     padding: 0;
   
-    font-family: sans-serif;
+    font-family: montserrat light;
     color:white;
     
    
@@ -4765,7 +4765,7 @@ footer {
 .footer_companylegallist1 h7{
     padding: 0;
     
-    font-family: sans-serif;
+    font-family: montserrat light;
     color:white;
     
 }

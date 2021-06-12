@@ -134,7 +134,7 @@
         vertical-align:right;
         font-size: 19px;
         color: #66BB6A;
-        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: montserrat light;
     }
     
     .nav_info ul li:last-child {
@@ -214,7 +214,7 @@
         vertical-align:right;
         font-size: 19px;
         color: #66BB6A;
-        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family:montserrat light;
     }
     
     .nav_info ul li:last-child {
@@ -323,7 +323,7 @@
         vertical-align:right;
         font-size: 19px;
         color: #66BB6A;
-        font-family:sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family:montserrat light;
     }
     
     .nav_info ul li:last-child {
@@ -754,7 +754,7 @@
         padding: 0;
         font-size: 40px;
         line-height: 98px;
-        font-family: sans-serif;
+        font-family: montserrat light;
         color:black;
         text-align: center;
        
@@ -764,9 +764,10 @@
         padding: 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: sans-serif;
+        font-family:montserrat light;
         color:black;
         text-align: center;
+        
        
     }
     .logo_info img {
@@ -790,7 +791,7 @@
           line-height: 38px;
           text-align:center;
         margin-bottom: 100px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: montserrat light;
     
           
     }
@@ -1160,22 +1161,25 @@
     }
 
     .banner_list .banner_txt h2 {
-        font-size: 20px;
-        line-height: 4px;
+        font-size: 35px;
+        line-height: 34px;
         visibility: visible;
+        margin-bottom: 100px;
+        font-family: montserrat light;
     }
 
     .banner_list .banner_txt p {
         visibility: visible;
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 25px;
+        line-height: 35px;
+        font-family: montserrat light;
+       
     }
     .banner_list .banner_txt h4{
         /* margin: 0 20px 40px 0; */
-        margin-top: -12px;
-        margin-bottom: 109px;
-        padding: 0;
-        font-size: 18px;
+        margin-top: -100px;
+        padding: 165px;
+        font-size: 28px;
         line-height: 18px;
         font-family: montserrat light;
         color:black;
@@ -1858,28 +1862,29 @@
 
     .nav_info {
         top: 80px;
+       
     }
     .banner_list .banner_txt h2 {
        
-        font-size: 18px;
-        line-height: 18px;
-        margin-top: 10px;
-        
+        font-size:38px;
+        line-height: 48px;
+        margin-top: -10px;
+        font-family: montserrat light;
         
     }
     .banner_list .banner_txt p {
-        margin-top: 40px;
-        font-size: 16px;
-        line-height: 18px;
-        
+        margin-top: -20px;
+        font-size: 26px;
+        line-height: 38px;
+        font-family: montserrat light;
         
     }
     .banner_list .banner_txt h4 {
-        font-size: 22px;
+        margin-top: -150px;
+        font-size: 18px;
         line-height: 30px;
-        margin: 0 0 10px 0;
-        margin-top: -40px;
-        margin-bottom: 190px;
+        padding: 100px;
+        font-family: montserrat light;
     }
 
     .green_btn {
@@ -1962,7 +1967,7 @@
     .footer_companylegallist1 h3{
         padding: 0;
       
-        font-family: sans-serif;
+        font-family: montserrat light;
         color:white;
         
        
@@ -1970,7 +1975,7 @@
     .footer_companylegallist1 h7{
         padding: 0;
         
-        font-family: sans-serif;
+        font-family: montserrat light;
         color:white;
         
     }
