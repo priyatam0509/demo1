@@ -4672,6 +4672,7 @@ padding-bottom:12px;}
     text-align: left;
     margin-left: 400px;
    margin-top: -120px;
+   font-family: montserrat light;
 }
 
 .new-footer-end-section-inner p{
@@ -4684,10 +4685,11 @@ padding-bottom:12px;}
     margin-left: 400px;
     margin-right: 100px;
     text-align: justify;
-   
+    font-family: montserrat light;
 }
 .new-footer-end-section-inner a{
     color:green;
+    font-family: montserrat light;
 }
 
 /* .new-footer-end-section-inner h4{
@@ -4831,7 +4833,7 @@ footer {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -30px;
+    margin-top: -80px;
     padding: 16px;
     color: gray;
     font-weight: bold;
