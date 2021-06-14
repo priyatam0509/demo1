@@ -4820,7 +4820,7 @@ footer {
   .mySlides {
     display: none;
     padding: 80px;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
     line-height: 30px;
   }
