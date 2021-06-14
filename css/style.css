@@ -305,7 +305,7 @@ header:after,
     display: inline-block;
     vertical-align:right;
     font-size: 25px;
-    color: #6bd171;
+    color: #008037;
     font-family:montserrat light;
 }
 
@@ -323,7 +323,7 @@ header:after,
 .nav_info ul li.active,
 .nav_info ul li.active a,
 .nav_info ul li a:hover {
-    color: #6bd171;
+    color:green;
 }
 
 .careers_btn {
