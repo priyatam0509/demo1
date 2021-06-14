@@ -18,17 +18,57 @@
         position: relative;
         min-height: 100px;
     }
+    .banner_list .banner_txt h2 {
+        /* margin-top: -60px; */
+        
+        font-size: 50px;
+        line-height: 98px;
+        font-family: montserrat light;
+        color:black;
+        text-align: center;
+        padding-bottom: 40px;
+       
+    }
+    .banner_list .banner_txt h4{
+        margin: 0 0 10px 0;
+        font-size: 28px;
+        line-height: 48px;
+        font-family: montserrat light ;
+        color:black;
+        text-align: center;
+        
+
+       
+    }
+    
+    
+    
+    .banner_list .banner_txt p {
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+        margin-bottom: 100px;
+        font-family:montserrat light ;
+        padding-bottom: 20px;
+    
+          
+    }
     .logo_info {
         margin: 2px 5px 0 0;
     }
     .logo_info img {
         display: block;
         margin: 0;
-        width: 210px;
+        width: 260px;
         margin-left: 60px;
     }
     .nav_info ul {
-        margin: 0 100px 0 0;
+        margin: 0 120px 0 0;
         padding: 0;
         list-style: none;
     }
@@ -99,7 +139,9 @@
         width: 100%;
         margin: 1px 100px 190px 0;
         position: relative;
-        min-width: 400px;
+        min-width: 45 0px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         
     }
     
@@ -111,6 +153,47 @@
         margin-bottom: -10px;
         
     }
+   
+    .banner_list .banner_txt h2 {
+        /* margin-top: -60px; */
+        
+        font-size: 50px;
+        line-height: 98px;
+        font-family: montserrat light;
+        color:black;
+        text-align: center;
+        padding-bottom: 40px;
+       
+    }
+    .banner_list .banner_txt h4{
+        margin: 0 0 10px 0;
+        font-size: 28px;
+        line-height: 48px;
+        font-family: montserrat light ;
+        color:black;
+        text-align: center;
+        
+
+       
+    }
+    
+    
+    
+    .banner_list .banner_txt p {
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+        margin-bottom: 100px;
+        font-family:montserrat light ;
+        padding-bottom: 20px;
+    
+          
+    }
     
     .logo_info {
         margin: 2px 5px 0 0;
@@ -118,11 +201,11 @@
     .logo_info img {
         display: block;
         margin: 0;
-        width: 210px;
-        margin-left: 100px;
+        width: 240px;
+        margin-left: 120px;
     }
     .nav_info ul {
-        margin: 0 100px 0 0;
+        margin: 0 120px 0 0;
         padding: 0;
         list-style: none;
     }
@@ -133,7 +216,7 @@
         display: inline-block;
         vertical-align:right;
         font-size: 19px;
-        color: #66BB6A;
+        color: green;
         font-family: montserrat light;
     }
     
@@ -198,11 +281,11 @@
     .logo_info img {
         display: block;
         margin: 0;
-        width: 210px;
+        width: 240px;
         margin-left: 160px;
     }
     .nav_info ul {
-        margin: 0 200px 0 0;
+        margin: 0 160px 0 0;
         padding: 0;
         list-style: none;
     }
@@ -222,8 +305,51 @@
         font-weight: 30000px;
      
     }
-    .banner_list {
-        min-height: 450px;
+    .banner_info {
+        margin: 0 0 50px 0;
+        min-height: 800px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .banner_list .banner_txt h2 {
+        /* margin-top: -60px; */
+        
+        font-size: 50px;
+        line-height: 98px;
+        font-family: montserrat light;
+        color:black;
+        text-align: center;
+        padding-bottom: 40px;
+       
+    }
+    .banner_list .banner_txt h4{
+        margin: 0 0 10px 0;
+        font-size: 28px;
+        line-height: 48px;
+        font-family: montserrat light ;
+        color:black;
+        text-align: center;
+        
+
+       
+    }
+    
+    
+    
+    .banner_list .banner_txt p {
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+        margin-bottom: 100px;
+        font-family:montserrat light ;
+        padding-bottom: 20px;
+    
+          
     }
 
     .ourstandpoint_info .freshproducesupply_inner .freshproducesupply_bg {
@@ -334,6 +460,9 @@
 
     .banner_info {
         margin: 0 0 50px 0;
+        min-height: 700px;
+        padding-top: 90px;
+        padding-bottom: 100px;
     }
 
     /* .banner_list {
@@ -353,18 +482,19 @@
     .logo_info img {
         display: block;
         margin: 0;
-        width: 210px;
+        width: 240px;
         margin-left: 160px;
     }
 
     .banner_list .banner_txt h2 {
-        margin-top: -80px;
-        padding: 0;
-        font-size: 45px;
+        /* margin-top: -60px; */
+        
+        font-size: 50px;
         line-height: 98px;
         font-family: montserrat light;
         color:black;
         text-align: center;
+        padding-bottom: 40px;
        
     }
     .banner_list .banner_txt h4{
@@ -392,6 +522,7 @@
           text-align:center;
         margin-bottom: 100px;
         font-family:montserrat light ;
+        padding-bottom: 20px;
     
           
     }
