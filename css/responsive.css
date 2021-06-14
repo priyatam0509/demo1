@@ -516,12 +516,12 @@
           color:#828287;
           letter-spacing: 0.7px;
           font-size: 20px;
-          font-weight: 400;
+          font-weight: 600;
           justify-content:center;
           line-height: 38px;
           text-align:center;
         margin-bottom: 100px;
-        font-family:montserrat light ;
+        font-family:'Courier New', Courier, monospace ;
         padding-bottom: 20px;
     
           
@@ -1350,7 +1350,7 @@
     
     .banner_list .banner_txt p {
        
-          color:#828287;
+          color:gray;
           letter-spacing: 0.7px;
           font-size: 20px;
           font-weight: 400;
@@ -1358,7 +1358,7 @@
           line-height: 38px;
           text-align:center;
         margin-bottom: 100px;
-        font-family:montserrat light ;
+        font-family:'Courier New', Courier, monospace ;
     
           
     }

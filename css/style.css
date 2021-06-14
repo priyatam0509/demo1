@@ -576,7 +576,7 @@ header:after,
 
 .banner_list .banner_txt p {
    
-      color:#828287;
+      color:gray;
       letter-spacing: 0.7px;
       font-size: 20px;
       font-weight: 400;
@@ -584,7 +584,7 @@ header:after,
       line-height: 38px;
       text-align:center;
     margin-bottom: 100px;
-    font-family:montserrat light ;
+    font-family:'Courier New', Courier, monospace ;
 
       
 }
@@ -4648,7 +4648,7 @@ padding-bottom:12px;}
     margin-bottom: 10;
 }
 
-.new-footer-end-section-img img
+/* .new-footer-end-section-img img
 {
 	opacity: 0.7;
         display: block;
@@ -4658,9 +4658,39 @@ padding-bottom:12px;}
         margin-top: -30px;
    
     
+} */
+.new-footer-end-section-img img
+{
+	opacity: 0.7;
+    width: 300px;
+    margin-left: 50px;
+   
+    
+}
+.new-footer-end-section-inner h4{
+    color:white;
+    text-align: left;
+    margin-left: 400px;
+   margin-top: -120px;
 }
 
-.new-footer-end-section-inner h4{
+.new-footer-end-section-inner p{
+    color:whitesmoke;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 100px;
+    text-align: justify;
+   
+}
+.new-footer-end-section-inner a{
+    color:green;
+}
+
+/* .new-footer-end-section-inner h4{
     color: #b5b5b5;
     font-size: 16px;
     font-weight: 500;
@@ -4686,7 +4716,7 @@ padding-bottom:12px;}
 .new-footer-end-section-inner a{
     color:green;
     font-family: montserrat light;
-}
+} */
 .undermanagement h1{
     padding: 0;
     font-size: 58px;
@@ -4803,7 +4833,7 @@ footer {
     width: auto;
     margin-top: -30px;
     padding: 16px;
-    color: #888;
+    color: white;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -4827,7 +4857,7 @@ footer {
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #ddd;
+    background:white;
   
   }
   
@@ -4837,7 +4867,7 @@ footer {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color:white;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -4846,23 +4876,23 @@ footer {
   
   /* Add a background color to the active dot/circle */
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: white;
   }
   
   /* Add an italic font style to all quotes */
-  q {color: black;
+  q {color:gray;
     letter-spacing: 0.7px;
     font-size: 20px;
-    font-weight: 400;
-	
+    font-weight: 500;
+	font-family: 'Courier New', Courier, monospace;
     text-align: center;}
   
   /* Add a blue color to the author */
-  .author {color: black;
+  .author {color: gray;
     letter-spacing: 0.7px;
     font-size: 20px;
-    font-weight: 400;
-	
+    font-weight: 600;
+	font-family: 'Courier New', Courier, monospace;
     text-align: center;}
 
  
