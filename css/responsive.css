@@ -336,16 +336,18 @@
         margin: 0 0 50px 0;
     }
 
-    .banner_list {
-        min-height: 400px;
-    }
+    /* .banner_list {
+        min-height: 700px;
+    } */
 
     .banner_list .banner_txt {
-        padding: 80px 0 0 0;
+        padding: 90px 0 390px 0;
+        
     }
 
     .banner_list .banner_txt .banner_txtinner {
         max-width: 100%;
+      
     }
 
     .logo_info img {
@@ -356,28 +358,44 @@
     }
 
     .banner_list .banner_txt h2 {
-        font-size: 40px;
-        line-height: 44px;
-        visibility: visible;
-    }
-
-    .banner_list .banner_txt p {
-        visibility: visible;
-        font-size: 15px;
-        line-height: 15px;
-    }
-    .banner_list .banner_txt h4{
-        /* margin: 0 20px 40px 0; */
-       
-      
-        
-        font-size: 18px;
-        line-height: 38px;
+        margin-top: -80px;
+        padding: 0;
+        font-size: 45px;
+        line-height: 98px;
         font-family: montserrat light;
         color:black;
         text-align: center;
        
     }
+    .banner_list .banner_txt h4{
+        margin: 0 0 10px 0;
+        font-size: 28px;
+        line-height: 48px;
+        font-family: montserrat light ;
+        color:black;
+        text-align: center;
+        
+
+       
+    }
+    
+    
+    
+    .banner_list .banner_txt p {
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+        margin-bottom: 100px;
+        font-family:montserrat light ;
+    
+          
+    }
+    
     .creatingopportunities_title {
         margin: 0 0 40px 0;
     }
@@ -750,9 +768,9 @@
     }
 
     .banner_list .banner_txt h2 {
-       
+        margin-top: -80px;
         padding: 0;
-        font-size: 40px;
+        font-size: 55px;
         line-height: 98px;
         font-family: montserrat light;
         color:black;
@@ -764,12 +782,28 @@
         padding: 0;
         font-size: 28px;
         line-height: 48px;
-        font-family:montserrat light;
+        font-family: montserrat light ;
         color:black;
         text-align: center;
-        
        
     }
+    
+    
+    .banner_list .banner_txt p {
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+        margin-bottom: 100px;
+        font-family:montserrat light ;
+    
+          
+    }
+    
     .logo_info img {
         display: block;
         margin: 0;
@@ -1161,31 +1195,43 @@
     }
 
     .banner_list .banner_txt h2 {
-        font-size: 35px;
-        line-height: 34px;
-        visibility: visible;
-        margin-bottom: 100px;
-        font-family: montserrat light;
-    }
-
-    .banner_list .banner_txt p {
-        visibility: visible;
-        font-size: 25px;
-        line-height: 35px;
-        font-family: montserrat light;
-       
-    }
-    .banner_list .banner_txt h4{
-        /* margin: 0 20px 40px 0; */
-        margin-top: -100px;
-        padding: 165px;
-        font-size: 28px;
-        line-height: 18px;
+        margin-top: -80px;
+        padding: 0;
+        font-size: 55px;
+        line-height: 98px;
         font-family: montserrat light;
         color:black;
         text-align: center;
        
     }
+    .banner_list .banner_txt h4{
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 28px;
+        line-height: 48px;
+        font-family: montserrat light ;
+        color:black;
+        text-align: center;
+       
+    }
+    
+   
+    
+    .banner_list .banner_txt p {
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+        margin-bottom: 100px;
+        font-family:montserrat light ;
+    
+          
+    }
+    
     .banner_list .banner_txt .green_btn,
     .banner_list .banner_img,
     .aboutbanner_info h3,
@@ -1865,27 +1911,42 @@
        
     }
     .banner_list .banner_txt h2 {
+        margin-top: -80px;
+        padding: 0;
+        font-size: 20px;
+        line-height: 28px;
+        font-family: montserrat light;
+        color:black;
+        text-align: center;
        
-        font-size:38px;
+    }
+    .banner_list .banner_txt h4{
+        margin: 0 0 0 0;
+        
+        font-size: 20px;
         line-height: 48px;
-        margin-top: -10px;
-        font-family: montserrat light;
-        
+        font-family: montserrat light ;
+        color:black;
+        text-align: center;
+        margin-bottom: -10px;
     }
+  
+    
     .banner_list .banner_txt p {
-        margin-top: -20px;
-        font-size: 26px;
-        line-height: 38px;
-        font-family: montserrat light;
-        
+       
+          color:#828287;
+          letter-spacing: 0.7px;
+          font-size: 20px;
+          font-weight: 400;
+          justify-content:center;
+          line-height: 38px;
+          text-align:center;
+          margin-bottom: 100px;
+        font-family:montserrat light ;
+    
+          
     }
-    .banner_list .banner_txt h4 {
-        margin-top: -150px;
-        font-size: 18px;
-        line-height: 30px;
-        padding: 100px;
-        font-family: montserrat light;
-    }
+     
 
     .green_btn {
         padding: 14px 20px;
