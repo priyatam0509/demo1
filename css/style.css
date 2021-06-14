@@ -304,9 +304,9 @@ header:after,
     padding: 0px;
     display: inline-block;
     vertical-align:right;
-    font-size: 25px;
+    font-size: 20px;
     color: #008037;
-    font-family:montserrat light;
+    font-family:montserrat ;
 }
 
 .nav_info ul li:last-child {
@@ -1524,10 +1524,16 @@ footer {
     width: 100%;
 }
 
-.footer_companylegallist h6 {
+.footer_companylegallist h3 {
     margin: 0 0 20px 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 26px;
+    font-family: montserrat light;
+}
+.col-md-12-social-menu h3{
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-size: 26px;
     font-family: montserrat light;
 }
 
@@ -4603,7 +4609,7 @@ padding-bottom:12px;}
     
      font-size: 20px;
      color: #6bd171;
-     font-family:montserrat light;
+     font-family:montserrat ;
 
     
   }
@@ -4796,7 +4802,7 @@ footer {
 .footer_companylegallist1 h3{
     padding: 0;
   
-    font-family: montserrat light;
+    font-family: montserrat ;
     color:white;
     
    
@@ -4804,7 +4810,7 @@ footer {
 .footer_companylegallist1 h7{
     padding: 0;
     
-    font-family: montserrat light;
+    font-family: montserrat ;
     color:white;
     
 }
