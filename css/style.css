@@ -416,6 +416,7 @@ header:after,
     margin: -80px 0px 70px 0;
     position: relative;
     min-height: 600px;
+  
  
 }
 
@@ -4903,4 +4904,5 @@ footer {
 	font-family: 'Courier New', Courier, monospace;
     text-align: center;}
 
- 
+ /* Team */
+

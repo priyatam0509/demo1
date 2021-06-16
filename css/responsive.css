@@ -89,11 +89,12 @@
      
     }
     .ourteam_details {
-        padding: 0;
+        padding: 100px;
+        margin-top: 100px;
     }
     .banner_list {
         min-height: 900px;
-        margin-top: -220px;
+       
     }
 
     .ourteam_detailsview {
