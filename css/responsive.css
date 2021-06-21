@@ -23,7 +23,7 @@
         
         font-size: 50px;
         line-height: 98px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         padding-bottom: 40px;
@@ -33,7 +33,7 @@
         margin: 0 0 10px 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         
@@ -78,9 +78,10 @@
         padding: 0px;
         display: inline-block;
         vertical-align:right;
-        font-size: 19px;
+        font-size: 29px;
         color: #66BB6A;
-        font-family:montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
+                                                
     }
     
     .nav_info ul li:last-child {
@@ -160,7 +161,7 @@
         
         font-size: 50px;
         line-height: 98px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         padding-bottom: 40px;
@@ -170,7 +171,7 @@
         margin: 0 0 10px 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         
@@ -218,7 +219,8 @@
         vertical-align:right;
         font-size: 19px;
         color: green;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
+                                                
     }
     
     .nav_info ul li:last-child {
@@ -298,7 +300,8 @@
         vertical-align:right;
         font-size: 19px;
         color: #66BB6A;
-        font-family:montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
+                                                
     }
     
     .nav_info ul li:last-child {
@@ -317,7 +320,7 @@
         
         font-size: 50px;
         line-height: 98px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         padding-bottom: 40px;
@@ -327,7 +330,7 @@
         margin: 0 0 10px 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         
@@ -450,7 +453,8 @@
         vertical-align:right;
         font-size: 19px;
         color: #66BB6A;
-        font-family:montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
+                                                
     }
     
     .nav_info ul li:last-child {
@@ -492,7 +496,7 @@
         
         font-size: 50px;
         line-height: 98px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         padding-bottom: 40px;
@@ -502,7 +506,7 @@
         margin: 0 0 10px 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         
@@ -522,7 +526,7 @@
           line-height: 38px;
           text-align:center;
         margin-bottom: 100px;
-        font-family:'Courier New', Courier, monospace ;
+        font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
         padding-bottom: 20px;
     
           
@@ -904,7 +908,7 @@
         padding: 0;
         font-size: 55px;
         line-height: 98px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
        
@@ -914,7 +918,7 @@
         padding: 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
        
@@ -1331,7 +1335,7 @@
         padding: 0;
         font-size: 55px;
         line-height: 98px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
        
@@ -1341,7 +1345,7 @@
         padding: 0;
         font-size: 28px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
        
@@ -1359,7 +1363,7 @@
           line-height: 38px;
           text-align:center;
         margin-bottom: 100px;
-        font-family:'Courier New', Courier, monospace ;
+        font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
     
           
     }
@@ -2047,7 +2051,7 @@
         padding: 0;
         font-size: 20px;
         line-height: 28px;
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
        
@@ -2057,7 +2061,7 @@
         
         font-size: 20px;
         line-height: 48px;
-        font-family: montserrat light ;
+        font-family: 'MOMCAKE', sans-serif;
         color:black;
         text-align: center;
         margin-bottom: -10px;
@@ -2160,7 +2164,8 @@
     .footer_companylegallist1 h3{
         padding: 0;
       
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
+                                                
         color:white;
         
        
@@ -2168,7 +2173,8 @@
     .footer_companylegallist1 h7{
         padding: 0;
         
-        font-family: montserrat light;
+        font-family: 'MOMCAKE', sans-serif;
+                                                
         color:white;
         
     }

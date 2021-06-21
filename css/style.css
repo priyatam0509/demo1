@@ -304,9 +304,10 @@ header:after,
     padding: 0px;
     display: inline-block;
     vertical-align:right;
-    font-size: 20px;
+    font-size: 29px;
     color: #008037;
-    font-family:montserrat ;
+    font-family: 'MOMCAKE', sans-serif;
+                                                
 }
 
 .nav_info ul li:last-child {
@@ -555,7 +556,7 @@ header:after,
     padding: 0;
     font-size: 55px;
     line-height: 98px;
-    font-family: montserrat light;
+    font-family: 'MOMCAKE', sans-serif;
     color:black;
     text-align: center;
    
@@ -565,7 +566,7 @@ header:after,
     padding: 0;
     font-size: 28px;
     line-height: 48px;
-    font-family: montserrat light ;
+    font-family: 'MOMCAKE', sans-serif;
     color:black;
     text-align: center;
    
@@ -585,7 +586,7 @@ header:after,
       line-height: 38px;
       text-align:center;
     margin-bottom: 100px;
-    font-family:'Courier New', Courier, monospace ;
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
 
       
 }
@@ -1529,7 +1530,8 @@ footer {
     margin: 0 0 20px 0;
     padding: 0;
     font-size: 26px;
-    font-family: montserrat light;
+    font-family: 'MOMCAKE', sans-serif;
+                                                
 }
 .col-md-12-social-menu h3{
     margin: 0 0 20px 0;
@@ -4460,7 +4462,7 @@ footer {
 	color: #fff;
     font-size: 35px;
     padding-bottom: 12px;
-    font-family: montserrat light;
+    font-family: 'MOMCAKE', sans-serif;
 }
 .section-newsletter p{
     color: #fff;
@@ -4608,9 +4610,10 @@ padding-bottom:12px;}
  
      display: inline-block;
     
-     font-size: 20px;
+     font-size: 29px;
      color: #6bd171;
-     font-family:montserrat ;
+     font-family: 'MOMCAKE', sans-serif;
+                                                
 
     
   }
@@ -4680,6 +4683,7 @@ padding-bottom:12px;}
     margin-left: 400px;
    margin-top: -120px;
    font-family: montserrat light;
+   font-size: xx-large;
 }
 
 .new-footer-end-section-inner p{
@@ -4693,9 +4697,10 @@ padding-bottom:12px;}
     margin-right: 100px;
     text-align: justify;
     font-family: montserrat light;
+    
 }
 .new-footer-end-section-inner a{
-    color:green;
+    color:	#ff8000;
     font-family: montserrat light;
 }
 
@@ -4832,6 +4837,7 @@ footer {
     text-align: justify;
     justify-content: center;
     line-height: 30px;
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
   }
   
   /* Next & previous buttons */
@@ -4893,16 +4899,18 @@ footer {
     letter-spacing: 0.7px;
     font-size: 20px;
     font-weight: 500;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
     text-align: center;}
   
   /* Add a blue color to the author */
   .author {color: gray;
     letter-spacing: 0.7px;
     font-size: 20px;
-    font-weight: 600;
-	font-family: 'Courier New', Courier, monospace;
-    text-align: center;}
+    font-weight: 800;
+	font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+    text-align: left;
+    font-weight: bolder;
+}
 
  /* Team */
 
