@@ -79,7 +79,7 @@
         display: inline-block;
         vertical-align:right;
         font-size: 20px;
-        color: #66BB6A;
+        color: #546cb6;
         font-family: 'MOMCAKE', sans-serif;
                                                 
     }
@@ -218,7 +218,7 @@
         display: inline-block;
         vertical-align:right;
         font-size: 20px;
-        color: green;
+        color: #546cb6;
         font-family: 'MOMCAKE', sans-serif;
                                                 
     }
@@ -299,7 +299,7 @@
         display: inline-block;
         vertical-align:right;
         font-size: 19px;
-        color: #66BB6A;
+        color: #546cb6;
         font-family: 'MOMCAKE', sans-serif;
                                                 
     }
@@ -452,7 +452,7 @@
         display: inline-block;
         vertical-align:right;
         font-size: 19px;
-        color: #66BB6A;
+        color: #546cb6;
         font-family: 'MOMCAKE', sans-serif;
                                                 
     }
@@ -2799,6 +2799,11 @@
         width: 50%;
         margin-top: -30px;
         
+    }
+    .flogo_info{
+        width: 300px;
+       margin-left: 1px;
+    
     }
     .new-footer-end-section-inner h4
     {

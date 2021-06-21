@@ -305,7 +305,7 @@ header:after,
     display: inline-block;
     vertical-align:right;
     font-size: 20px;
-    color: #008037;
+    color: #546cb6;
     font-family: 'MOMCAKE', sans-serif;
                                                 
 }
@@ -324,7 +324,7 @@ header:after,
 .nav_info ul li.active,
 .nav_info ul li.active a,
 .nav_info ul li a:hover {
-    color:green;
+    color:#546cb6;
 }
 
 .careers_btn {
@@ -590,6 +590,14 @@ header:after,
 
       
 }
+.u-small-text.c-archive__news-list__item-cat
+.u-small-text.c-archive__featured-cat
+.u-small-text{
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+    font: 12px;
+  }
+  
+
 
 .banner_list .banner_txt .green_btn {
     transition: none;
@@ -4453,11 +4461,15 @@ footer {
     text-align: left;
 }
 .section-newsletter{
-	background:#545454;
+	background:#546cb6;
 	text-align:center;
 	padding:20px;
     margin-top: -80px;
+   
+   
 }
+
+
 .section-newsletter h3{
 	color: #fff;
     font-size: 35px;
@@ -4474,6 +4486,7 @@ footer {
 	margin-right:10px;
 	margin-top:15px;
     font-family: montserrat light;
+    
 }
 .newsletter-form select{
 	margin-top:15px;
@@ -4611,7 +4624,7 @@ padding-bottom:12px;}
      display: inline-block;
     
      font-size: 20px;
-     color: #6bd171;
+     color:#546cb6;
      font-family: 'MOMCAKE', sans-serif;
                                                 
 
@@ -4619,9 +4632,9 @@ padding-bottom:12px;}
   }
   
   .nav_info ul li.main-navv a:hover {
-    color: green;
+    color: #546cb6;
     border: 1px solid #333;
-    color: #66BB6A;
+    
    
   }
   .nav_info ul li.main-navv ,
@@ -4654,7 +4667,7 @@ padding-bottom:12px;}
 .pitchbook{
     width: 27px;
     position: absolute;
-    margin-top: 92;
+    margin-top: -11px;
     margin-bottom: 10;
 }
 
@@ -4672,11 +4685,19 @@ padding-bottom:12px;}
 .new-footer-end-section-img img
 {
 	opacity: 0.7;
-    width: 300px;
-    margin-left: 50px;
+    width: 100px;
+    
+    margin-left: -200px;
    
     
+
 }
+.flogo_info{
+    width: 100px;
+    margin-left: -20px;
+
+}
+
 .new-footer-end-section-inner h4{
     color:white;
     text-align: left;
@@ -4908,7 +4929,7 @@ footer {
     font-size: 20px;
     font-weight: 800;
 	font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
 }
 
