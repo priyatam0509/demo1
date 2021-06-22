@@ -550,13 +550,16 @@ header:after,
     
      /* margin-top: 290px; */
 }
+.form.newsletter-form{
+    align-self: center;
+}
 
 .banner_list .banner_txt h2 {
     margin-top: -70px;
     padding: 0;
     font-size: 55px;
     line-height: 98px;
-    font-family: 'MOMCAKE', sans-serif;
+    font-family: 'MOMCAKE BOLD';
     color:black;
     text-align: center;
    
@@ -566,7 +569,7 @@ header:after,
     padding: 0;
     font-size: 28px;
     line-height: 48px;
-    font-family: 'MOMCAKE', sans-serif;
+    font-family: 'MOMCAKE Bold';
     color:black;
     text-align: center;
    
@@ -4685,17 +4688,22 @@ padding-bottom:12px;}
 .new-footer-end-section-img img
 {
 	opacity: 0.7;
-    width: 100px;
-   
-    margin-left: -200px;
+    width: 200px;
+    margin-top: 1px;
+    margin-left: -250px;
    
     
 
 }
 .flogo_info{
-    width: 100px;
-    margin-left: -20px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -20px;
 
+}
+.fimage{
+    margin-left: -250px;
+    opacity: 0.7;
 }
 
 .new-footer-end-section-inner h4{
