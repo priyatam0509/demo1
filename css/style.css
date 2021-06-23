@@ -4463,7 +4463,7 @@ footer {
 .writetous_form .writeusemail_txt.writeusaddress_txt{
     text-align: left;
 }
-.section-newsletter{
+/* .section-newsletter{
 	background:#546cb6;
 	text-align:center;
 	padding:20px;
@@ -4509,22 +4509,22 @@ padding-bottom:12px;}
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.7px;
-}
-.count-section p{
+} */
+/* .count-section p{
 	color:black;
 	font-weight: 500;
 }
 .newsletter-selelct{
     padding: 21px;
-    margin-right: 9px;/*
-    width: 300px;*/
+    margin-right: 9px;
+    width: 300px;
  }
 .btn-d{   
         padding: 12px 18px;
         color:#008037;
         font-size: 14px;
         font-weight: 400;
-   }
+   } */
    .new-footer-end-section
 {
 	background-color: #545454;
