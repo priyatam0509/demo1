@@ -1016,11 +1016,13 @@ header:after,
     padding: 70px 0;
     position: relative;
     background: whitesmoke;
+    
 }
 
 .puttheirfaith_info .container_info {
     position: relative;
     z-index: 3;
+    margin-top: -100px;
 }
 
 .puttheirfaith_info .puttheirfaith_bg {
