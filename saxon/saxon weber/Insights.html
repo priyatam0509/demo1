@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<!-- <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> -->
+
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <!-- <meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"f361777eb6",applicationID:"366503504"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){d("pageHide",[p.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https:///")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1209.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script> -->
+      <link rel="stylesheet" property="stylesheet" href="wp-content/themes/wealthfront-chisel/dist/styles/main-71f71dc388.css" type="text/css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.classList.remove('no-js');</script> -->
+      <!-- <script src="wp-content/themes/wealthfront-chisel/dist/scripts/vendor-2a3b7c6891.js" defer></script> -->
+    
+  
+    <script src="wp-content/themes/wealthfront-chisel/dist/scripts/app-d206b3c780.bundle.js" defer></script>
+  <!-- <link rel="pingback" href="xmlrpc.html" /> -->
+  <title>Insights</title>
+
+<!-- <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Wealthfront Blog" />
+<meta property="og:url" content="https://blog.wealthfront.com/" />
+<meta property="og:site_name" content="Wealthfront Blog" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Home - Wealthfront Blog" />
+<meta name="twitter:site" content="@Wealthfront" />
+<meta name="twitter:creator" content="@Wealthfront" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://blog.wealthfront.com/#website","url":"https://blog.wealthfront.com/","name":"Wealthfront Blog","description":"Personal Finance &amp; Investing Insights","potentialAction":{"@type":"SearchAction","target":"https://blog.wealthfront.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://blog.wealthfront.com/#webpage","url":"https://blog.wealthfront.com/","inLanguage":"en-US","name":"Home - Wealthfront Blog","isPartOf":{"@id":"https://blog.wealthfront.com/#website"},"datePublished":"2019-09-10T11:41:00+00:00","dateModified":"2021-06-02T00:13:02+00:00"}]}</script>
+/ Yoast SEO Premium plugin. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-icon-72x72.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="http://fonts.cdnfonts.com/css/momcake?styles=70427,70426" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-194x194.html" sizes="194x194">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="images/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#66BB6A">
+    <link rel="shortcut icon" href="images/favicons/favicon-32x32.png">
+    <title>Saxon Weber | Revolutionizing the pre-IPO shares</title>
+    <meta name="keywords" content="Saxon Weber Group is a premier private secondary brokerage firm and investment bank focused on pre-IPO shares; specifically serving institutional capital markets.">
+    <meta name="description" content="Saxon Weber Group is a premier private secondary brokerage firm and investment bank focused on pre-IPO shares; specifically serving institutional capital markets.">
+    <meta property="og:title" content="Saxon Weber | Revolutionizing the pre-IPO shares" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Saxon Weber Group is a premier private secondary brokerage firm and investment bank focused on pre-IPO shares; specifically serving institutional capital markets." />
+    <link rel="canonical" href="index.html">
+    <!-- <link rel="preload" as="font" href="fonts/chivo-regular-webfont.woff" type="font/woff" crossorigin="anonymous"> -->
+    <script src="js/jquery.min.js"></script>
+<!-- <link rel='stylesheet' id='avatars-css'  href='wp-content/plugins/add-local-avatar/avatars.css' type='text/css' media='all' />
+<link rel='stylesheet' id='imgareaselect-css'  href='wp-includes/js/imgareaselect/imgareaselect3bf4.css?ver=0.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='wp-includes/js/thickbox/thickbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='wp-content/plugins/add-to-any/addtoany.min9be6.css?ver=1.15' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js' id='jquery-js'></script>
+<script type='text/javascript' src='wp-content/plugins/add-to-any/addtoany.min4963.js?ver=1.1' id='addtoany-js'></script>
+<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/11024.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5e09.json?url=https%3A%2F%2Fblog.wealthfront.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed74d8?url=https%3A%2F%2Fblog.wealthfront.com%2F&amp;format=xml" /> -->
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="transparent";
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="../static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+
+
+<!-- This site uses the Open External Links in a New Window plugin v1.4 by WebFactory Ltd. Download it for free at https://wordpress.org/extend/plugins/open-external-links-in-a-new-window/ -->
+<script type="text/javascript">//<![CDATA[
+  function external_links_in_new_windows_loop() {
+    if (!document.links) {
+      document.links = document.getElementsByTagName('a');
+    }
+    var change_link = false;
+    var force = '';
+    var ignore = '';
+
+    for (var t=0; t<document.links.length; t++) {
+      var all_links = document.links[t];
+      change_link = false;
+      
+      if(document.links[t].hasAttribute('onClick') == false) {
+        // forced if the address starts with http (or also https), but does not link to the current domain
+        if(all_links.href.search(/^http/) != -1 && all_links.href.search('blog.wealthfront.com') == -1 && all_links.href.search(/^#/) == -1) {
+          // console.log('Changed ' + all_links.href);
+          change_link = true;
+        }
+          
+        if(force != '' && all_links.href.search(force) != -1) {
+          // forced
+          // console.log('force ' + all_links.href);
+          change_link = true;
+        }
+        
+        if(ignore != '' && all_links.href.search(ignore) != -1) {
+          // console.log('ignore ' + all_links.href);
+          // ignored
+          change_link = false;
+        }
+
+        if(change_link == true) {
+          // console.log('Changed ' + all_links.href);
+          document.links[t].setAttribute('onClick', 'javascript:window.open(\''+all_links.href+'\'); return false;');
+          document.links[t].removeAttribute('target');
+        }
+      }
+    }
+  }
+  
+  // Load
+  function external_links_in_new_windows_load(func)
+  {  
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function'){
+      window.onload = func;
+    } else {
+      window.onload = function(){
+        oldonload();
+        func();
+      }
+    }
+  }
+
+  external_links_in_new_windows_load(external_links_in_new_windows_loop);
+  //]]></script>
+
+<!-- <link rel="icon" href="wp-content/uploads/2019/07/cropped-wave-logo-transparent-hi-res-32x32.png" sizes="32x32" />
+<link rel="icon" href="wp-content/uploads/2019/07/cropped-wave-logo-transparent-hi-res-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="wp-content/uploads/2019/07/cropped-wave-logo-transparent-hi-res-180x180.png" />
+<meta name="msapplication-TileImage" content="https://blog.wealthfront.com/wp-content/uploads/2019/07/cropped-wave-logo-transparent-hi-res-270x270.png" /> -->
+
+    
+  <!-- <script type="text/javascript">
+    (function() {
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '../google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-1329988-4', 'auto');
+      ga('send', 'pageview');
+    })();
+  </script> -->
+  <style>
+    header.fixed{
+        padding: 100px 0;
+        background: #fff;
+        -webkit-box-shadow: 0 0 10px 0 rgba(50, 50, 50, .55);
+        -moz-box-shadow: 0 0 10px 0 rgba(50, 50, 50, .55);
+        box-shadow: 0 0 10px 0 rgba(50, 50, 50, .55);
+    }
+    </style>
+    <script>
+    document.addEventListener("scroll",function(){
+      var target = document.getElementsByTagName('header');
+      var val = document.getElementsByTagName('body');
+      if(window.pageYOffset > 1){
+      val[0].style.color= "#000";
+        
+       target[0].style.padding= "8px 0";//code changes the top width
+       target[0].style.background= "#fff";
+       target[0].style.boxShadow= "0 0 10px 0 rgba(50, 50, 50, .55)";
+      }
+      else if(window.pageYOffset < 0){
+      target[0].style.padding= "10px 0";
+             target[0].style.background= "none";
+             target[0].style.boxShadow= "none";
+      }
+    },false); 
+    
+    </script>
+    <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/responsive.css" type="text/css" rel="stylesheet">
+        
+    </head>
+    <style>
+        .content {
+          max-width: 10px;
+          margin: auto;
+        }
+        </style>
+         <style>
+          @import url('http://fonts.cdnfonts.com/css/momcake?styles=70427');
+          </style>
+    </head>
+
+<!-- <body class="home page-template-default page page-id-11024">
+            <header class="c-header">
+  <div class="c-header__inner">
+    <a href="index.html" rel="home" class="c-header__home">
+      <?xml version="1.0" encoding="utf-8"?><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 19.9016L20.9989 19.839C20.9845 19.8131 20.9557 19.7799 20.9074 19.7377C16.3216 15.9257 16.8988 7.95121 18.2013 0.549452C18.2537 0.251415 18.2891 0.0521697 18.0565 0.0244778C16.5749 -0.151901 11.6383 0.669388 10.2214 1.06356C9.85264 1.16613 9.81947 1.2748 9.81324 1.51232C9.42441 16.3288 18.3593 19.4308 20.7874 19.9135C20.8425 19.9245 20.9637 19.9384 21 19.9016ZM8.10045 5.67232C6.28159 6.03362 4.59791 6.73881 3.14099 7.37216C3.0129 7.4096 2.80828 7.63162 2.86127 7.90767C3.4359 10.901 6.23818 19.3414 16.952 19.9983C17.1984 20.0098 17.4472 19.9637 17.253 19.8404C15.8081 18.7085 10.6701 17.5444 8.56955 6.09761C8.54808 5.98064 8.55094 5.53535 8.10045 5.67232ZM2.95945 12.6998C2.32107 13.0917 0.675222 14.1923 0.0847922 14.7594C-0.0321082 14.8716 -0.00952701 14.9511 0.041964 15.1426C0.518557 16.9146 3.33084 20.0208 10.3173 19.7796C10.6475 19.7682 10.649 19.6652 10.4767 19.5352C10.3645 19.4505 8.15627 18.7278 6.13748 16.8342C5.12737 15.8867 4.09998 14.4472 3.41069 13.079C3.23956 12.7055 3.15305 12.5809 2.95945 12.6998Z" fill="#4840BB"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="20">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 19.9016L20.9989 19.839C20.9845 19.8131 20.9557 19.7799 20.9074 19.7377C16.3216 15.9257 16.8988 7.95121 18.2013 0.549452C18.2537 0.251415 18.2891 0.0521697 18.0565 0.0244778C16.5749 -0.151901 11.6383 0.669388 10.2214 1.06356C9.85264 1.16613 9.81947 1.2748 9.81324 1.51232C9.42441 16.3288 18.3593 19.4308 20.7874 19.9135C20.8425 19.9245 20.9637 19.9384 21 19.9016ZM8.10045 5.67232C6.28159 6.03362 4.59791 6.73881 3.14099 7.37216C3.0129 7.4096 2.80828 7.63162 2.86127 7.90767C3.4359 10.901 6.23818 19.3414 16.952 19.9983C17.1984 20.0098 17.4472 19.9637 17.253 19.8404C15.8081 18.7085 10.6701 17.5444 8.56955 6.09761C8.54808 5.98064 8.55094 5.53535 8.10045 5.67232ZM2.95945 12.6998C2.32107 13.0917 0.675222 14.1923 0.0847922 14.7594C-0.0321082 14.8716 -0.00952701 14.9511 0.041964 15.1426C0.518557 16.9146 3.33084 20.0208 10.3173 19.7796C10.6475 19.7682 10.649 19.6652 10.4767 19.5352C10.3645 19.4505 8.15627 18.7278 6.13748 16.8342C5.12737 15.8867 4.09998 14.4472 3.41069 13.079C3.23956 12.7055 3.15305 12.5809 2.95945 12.6998Z" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+</g>
+</svg>
+    </a>
+
+          <a href="index.html" class="c-main-nav__link c-header__blog">Blog</a>
+    
+      <button type="button" class="c-main-nav__search">
+    <i class="icon-zoom"></i>
+  </button>
+  <button type="button" class="c-main-nav__toggle">
+    <i class="icon-menu"></i>
+  </button>
+  <nav class="c-main-nav__wrapper c-main-nav__wrapper--post">
+    <button class="c-main-nav__close">
+      <i class="icon-close"></i>
+    </button>
+    <ul class="c-main-nav c-main-nav__post">
+              <li class="external menu-item menu-item-type-custom menu-item-object-custom menu-item-11489 c-main-nav__item">
+          <a href="https://www.saxonweber.com/"
+                                    class="c-main-nav__link">
+            <span>Go to saxonweber.com</span>
+                      </a>
+                  </li>
+              <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11395 c-main-nav__item">
+          <a href="category/banking/index.html"
+                                    class="c-main-nav__link">
+            <span>Banking</span>
+                      </a>
+                  </li>
+              <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11394 c-main-nav__item">
+          <a href="category/investing/index.html"
+                                    class="c-main-nav__link">
+            <span>Investing</span>
+                      </a>
+                  </li>
+            
+                                  </ul>
+              </div>
+            </div>
+                  </li>
+          </ul>
+                            <div class="u-hide__mobile c-main-nav__subnav-featured">
+        <p id="featured-nav-item" class="c-main-nav__featured-cat">Featured Article <span class="c-read-time">
+  9 min read
+</span></p>
+        <a href="renting-vs-buying-a-home/index.html">
+          <h3 class="c-main-nav__featured-title">Renting vs. Buying a Home: This Is Exactly How To Decide Which Is Best</h3>
+          <img src="wp-content/uploads/2019/06/house-1-330x200-c-default.png" alt="house">
+          <p class="c-main-nav__featured-preview">So what’s the deal? Is it worth plunking down your savings on a piece of property? Or wiser to keep renting for a period of time — or until the end of time? We have an answer.</p>
+        </a>
+      </div>
+        <div class="c-main-nav__footer">
+              <div class="c-main-nav__social">
+          <p class="c-main-nav__social-title">Follow Wealthfront —</p>
+          <ul class="c-main-nav__socials">
+                          <li class="c-main-nav__socials-item">
+                <a href="https://twitter.com/wealthfront" class="c-main-nav__social-link" target="_blank">
+                  <i class="icon-twitter"></i>
+                </a>
+              </li>
+                          <li class="c-main-nav__socials-item">
+                <a href="https://www.facebook.com/Wealthfront/" class="c-main-nav__social-link" target="_blank">
+                  <i class="icon-facebook"></i>
+                </a>
+              </li>
+                          <li class="c-main-nav__socials-item">
+                <a href="mailto:contact@wealthfront.com" class="c-main-nav__social-link" target="_blank">
+                  <i class="icon-email"></i>
+                </a>
+              </li>
+                      </ul>
+        </div>
+            <div class="c-main-nav__bottom u-hide__desktop">
+        <a href="#" target="_blank" data-android="https://play.google.com/store/apps/details?id=com.wealthfront" data-ios="https://apps.apple.com/us/app/wealthfront/id816020992" class="c-btn c-btn--primary">Download Wealthfront APP</a>
+        <p class="c-main-nav__social-title c-main-nav__bottom-download">Download Wealthfront APP —</p>
+        <a href="https://apps.apple.com/us/app/wealthfront/id816020992" class="c-main-nav__app ios">get andorid app</a>
+        <a href="https://play.google.com/store/apps/details?id=com.wealthfront" class="c-main-nav__app android">get andorid app</a>
+      </div>
+    </div>
+  </nav>
+  <div class="c-main-nav__wrapper--backdrop"></div>
+  </div> -->
+  <!-- <style>
+    .content {
+      max-width: 10px;
+      margin: auto;
+    }
+    </style> -->
+  <body class="home">
+    <div class="wrapper">
+        <header>
+        
+        <div class="container_info">
+            <div class="logo_info">
+                <a href="/saxon weber/index.html"><img src="images/logo.png"></a>
+            </div>
+                <div class="nav_info">
+                                <ul>
+                                   <li class=" ">
+                                        <a href="/saxon weber/Team.html">Team</a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="/saxon weber/About.html">About</a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#">Insights</a>
+                                    </li>
+                                    <li class=" ">
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li class="main-navv">
+                                        <a href="#">Log In</a>
+                                    </li>
+                                </ul>
+                </div>
+                <div class="navopen_icon">
+                    <span class="nav_iconline nav_iconline1"></span>
+                    <span class="nav_iconline nav_iconline2"></span>
+                    <span class="nav_iconline nav_iconline3"></span>
+                </div>
+    </div>
+  </header>
+      
+  <main class="">
+      <article id="post-11024">
+    <section class="c-section">
+      <div class="o-grid__row" style="margin-top: 100px;">
+                <div class="o-grid__col o-grid__col-large--12 o-grid__col-xlarge--8 o-grid__col--9 c-archive__featured-wrapper c-archive__featured-wrapper--14055">
+    <a href="how-to-keep-up-good-financial-habits-after-the-pandemic/index.html" class="c-archive__featured--14055 c-archive__featured">
+      <p class="u-small-text c-archive__featured--mark "style="color:white;font-family: 'MOMCAKE', sans-serif;">Featured article</p>
+              <img src="wp-content/uploads/2021/05/alex-knight-liWlhUFWp2w-unsplash-scaled-865x577-c-default.jpg"
+          srcset="https://blog.wealthfront.com/wp-content/uploads/2021/05/alex-knight-liWlhUFWp2w-unsplash-scaled-865x577-c-default.jpg 1440w, https://blog.wealthfront.com/wp-content/uploads/2021/05/alex-knight-liWlhUFWp2w-unsplash-scaled-630x420-c-default.jpg 768w, https://blog.wealthfront.com/wp-content/uploads/2021/05/alex-knight-liWlhUFWp2w-unsplash-scaled-430x287-c-default.jpg 640w"
+          sizes="(max-width: 2560px) 100px, 2560px"
+          alt="alex-knight-liWlhUFWp2w-unsplash"
+          class="c-archive__featured-img">
+            <div class="c-archive__featured-text">
+        <p class="u-small-text c-archive__featured-cat"style="color: #a3a3a3;">
+  3 min read</p>
+        <h1 class="c-archive__featured-title"style="font-family: 'MOMCAKE Bold';font-size:27px;">How To Keep Up Good Financial Habits After the Pandemic &nbsp;<i class="icon-arrow-right-2"style="icon_color:#546cb6;background:#546cb6"></i></h1>
+      </div>
+    </a>
+  </div>
+                  <div class="o-grid__col o-grid__col-large--12 o-grid__col-xlarge--4 o-grid__col--3 c-archive__news-wrapper" style="margin-top: 10px;">
+            <div class="c-archive__news"style="color: #a3a3a3;">
+              <div class="c-archive__news-top">
+                <!-- <h3 class="c-archive__news-title">Product News</h3> -->
+              </div>
+              <div class="owl-carousel c-archive__news-list"style="background:white;">
+                                                    <div class="c-archive__news-list__item">
+            
+                    <p class="u-small-text c-archive__news-list__item-cat"style="color: #a3a3a3;">April 28</p>
+                    <a href="you-can-now-use-wealthfront-to-build-and-automate-your-own-portfolio/index.html" class="c-archive__news-list__item-link"style="font-family: 'MOMCAKE Bold';">You Can Now Use SaxonWeber to Build and Automate Your Own Portfolio</a>
+                  </div>
+                                                    <div class="c-archive__news-list__item">
+                    <p class="u-small-text c-archive__news-list__item-cat"style="color: #a3a3a3;">April 20</p>
+                    <a href="you-can-now-use-wealthfronts-cash-account-to-automate-your-finances-from-end-to-end/index.html" class="c-archive__news-list__item-link"style="font-family: 'MOMCAKE Bold';">You Can Now Use Wealthfront’s Cash Account to Automate Your Finances from End to End</a>
+                  </div>
+                                                    <div class="c-archive__news-list__item">
+                    <p class="u-small-text c-archive__news-list__item-cat"style="color: #a3a3a3;">February 16</p>
+                    <a href="invest-within-minutes-transfer-cash-to-investment-account/index.html" class="c-archive__news-list__item-link"style="font-family: 'MOMCAKE Bold';">You Can Now Invest Your Money Within Minutes With Wealthfront</a>
+                  </div>
+                              </div>
+            </div>
+          </div>
+                          <div class="o-grid__row o-grid__col--12 c-archive__love">
+            <div class="o-grid__col o-grid__col--12 c-archive__love-content">
+              <p class="u-small-text c-archive__love-title"style="font-family: 'MOMCAKE Bold';">Latest Stories</p>
+              <div class="owl-carousel c-archive__love-list" data-posts-per-page="6" data-offset="6" data-exclude="14055">
+                                    <!-- <div class="c-archive__love-list__item" style="width: 285px;">
+  <a href="welcoming-jaleh-bisharat-to-our-board-of-directors/index.html" class="c-archive__love-link" data-trunc-post>
+    <img src="wp-content/uploads/2020/12/9.15board-blogpost-315x225-c-1.png"
+      alt="9.15board-blogpost"
+      class="c-archive__love-list__item-img">
+    <p class="u-small-text"><span class="c-read-time">
+  2 min read
+</span></p>
+    <h3 class="c-archive__love-list__item-title">Welcoming Jaleh Bisharat to Our Board of Directors</h3>
+    <p class="c-archive__love-list__item-preview" data-trunc>Wealthfront is disrupting the traditional financial industry by using software to put our clients’ interests first. We’re building the one platform you need to manage your entire financial life and grow your long-term wealth responsibly. Plans this big require an exceptional team, and today we’re thrilled to announce the addition&hellip;</p>
+  </a>
+</div> -->
+                                    <div class="c-archive__love-list__item" style="width: 285px;background-color: #fff;">
+  <a href="get-ready-for-2021-taxes-today/index.html" class="c-archive__love-link" data-trunc-post>
+    <img src="wp-content/uploads/2021/05/TTR-BLOG-2019%402x-1-315x225-c-1.png"
+      alt="TTR-BLOG-2019@2x-1"
+      class="c-archive__love-list__item-img">
+    <p class="u-small-text"style="font-size: 12px;color: #a3a3a3;">
+  4 min read
+</p>
+    <h3 class="c-archive__love-list__item-title"style="font-family: 'MOMCAKE Bold';font-size: 20px;">How To Get Ready for Next Year’s Taxes Today</h3>
+    <p class="c-archive__love-list__item-preview"style="color: #a3a3a3;" data-trunc>Whether you’ve already completed your 2020 tax return or you’re nearly there, you’re probably feeling a sense of relief and accomplishment now that tax season is drawing to a close. But don’t stop yet! You’ve got momentum, and now is a great time to get organized for next year’s taxes.</p>
+  </a>
+</div>
+                                    <div class="c-archive__love-list__item" style="width: 285px;background-color: #fff;">
+  <a href="you-can-now-use-wealthfront-to-build-and-automate-your-own-portfolio/index.html" class="c-archive__love-link" data-trunc-post>
+    <img src="wp-content/uploads/2021/04/Custom-portfolios-blogheader-1-1-315x225-c-1.png"
+      alt="Custom portfolios-blogheader (1)"
+      class="c-archive__love-list__item-img">
+    <p class="u-small-text"style="font-size: 12px;color: #a3a3a3;">
+  3 min read
+</p>
+    <h3 class="c-archive__love-list__item-title"style="font-family: 'MOMCAKE Bold';font-size: 20px;">You Can Now Use Wealthfront to Build and Automate Your Own Portfolio</h3>
+    <p class="c-archive__love-list__item-preview" style="color: #a3a3a3;"data-trunc>Maybe you’re bullish on TSLA, but you still want to invest in index funds. Maybe you’re passionate about building a better future, and you want an entire portfolio of socially responsible investments. Maybe you like Wealthfront’s recommended portfolios, but there’s one asset class you’d like to tweak. Investing is personal,&hellip;</p>
+  </a>
+</div>
+                                    <!-- <div class="c-archive__love-list__item" style="width: 285px;">
+  <a href="build-your-socially-responsible-wealthfront-portfolio/index.html" class="c-archive__love-link" data-trunc-post>
+    <img src="wp-content/uploads/2021/04/META-IMAGE-315x225-c-1.jpg"
+      alt="META IMAGE"
+      class="c-archive__love-list__item-img">
+    <p class="u-small-text"><span class="c-read-time">
+  3 min read
+</span></p>
+    <h3 class="c-archive__love-list__item-title">Build Your Socially Responsible Wealthfront Portfolio</h3>
+    <p class="c-archive__love-list__item-preview" data-trunc>Investing isn’t just a way of growing your money – it’s a way of shaping the future. When you invest in a certain ETF or stock or asset class, you’re expressing a belief in the future of that investment. Because of this, picking the right portfolio can be highly personal.</p>
+  </a>
+</div> -->
+                                    <div class="c-archive__love-list__item" style="width: 285px;background-color: #fff;">
+  <a href="tax-loss-harvesting-101/index.html" class="c-archive__love-link" data-trunc-post>
+    <img src="wp-content/uploads/2021/04/kelly-sikkema-y_HlzTZxiSY-unsplash-scaled-315x225-c-1.jpg"
+      alt="kelly-sikkema-y_HlzTZxiSY-unsplash"
+      class="c-archive__love-list__item-img">
+    <p class="u-small-text"style="font-size: 12px;color: #a3a3a3;">
+  7 min read
+</p>
+    <h3 class="c-archive__love-list__item-title"style="font-family: 'MOMCAKE Bold';font-size: 20px;">Tax-Loss Harvesting 101</h3>
+    <p class="c-archive__love-list__item-preview"style="color: #a3a3a3;" data-trunc>We believe investors should focus on the things they can control – cost, risk, and taxes. At Wealthfront, we help you with all three: we charge one low advisory fee, offer diversified portfolios with automatic rebalancing, and work to lower your tax bill with a suite of tax minimization features.</p>
+  </a>
+</div>
+                                    <div class="c-archive__love-list__item" style="width: 285px;background-color: #fff;">
+  <a href="you-can-now-use-wealthfronts-cash-account-to-automate-your-finances-from-end-to-end/index.html" class="c-archive__love-link" data-trunc-post>
+    <img src="wp-content/uploads/2021/04/041921-CashCategories-blogheader-2-1-315x225-c-1.png"
+      alt="041921-CashCategories-blogheader (2)"
+      class="c-archive__love-list__item-img">
+    <p class="u-small-text"style="font-size: 12px;color: #a3a3a3;">
+  2 min read
+</p>
+    <h3 class="c-archive__love-list__item-title"style="font-family: 'MOMCAKE Bold';font-size: 20px;">You Can Now Use Wealthfront’s Cash Account to Automate Your Finances from End to End</h3>
+    <p class="c-archive__love-list__item-preview"style="color: #a3a3a3;" data-trunc>Managing your money should be easy, but it usually isn’t. If you’re like half of Americans and keep your money at more than one financial institution, you probably find yourself moving money between accounts, committing multiple logins to memory, and monitoring lots of transfers. Whether you use traditional banks,&hellip;</p>
+  </a>
+</div>
+                              </div>
+            </div>
+          </div>
+              </div>
+              <div class="c-essential-guides">
+          <div class="c-container c-essential-guides__container"style="color:#546cb6;visibility: none;">
+            <h2 class="c-essential-guides__title"style="color:#546cb6;opacity: 0.1;">Essential Guides</h2>
+            <div class="owl-carousel c-essential-guides__list"style="margin-top: -39px;">
+                                              <div class="c-essential-guides__list-item item-1"style="background-color: #fff;">
+                  <div class="c-essential-guides__list-item-text">
+                                          <style>
+                        .c-essential-guides__list-item.item-1 .c-essential-guides__list-item-title  {
+                          color:black;
+                        }
+                      </style>
+                                        <h3 class="c-essential-guides__list-item-title"><span style="float: left;color:#546cb6;">Guide to</span> </br>Stock Holder Onboarding</h3>
+                    <p class="c-essential-guides__list-item-preview"style="font-family: montserrat light;color:#a3a3a3;">Skip vague resolutions like "get my finances in order." Real change means specific goals and actionable steps.</p>
+                    <p><a href="financial-health/index.html" class="u-link c-essential-guides__list-item-link"style="font-family: 'MOMCAKE Bold';">Read the guide</a>
+                  </div>
+                                      <img src="wp-content/uploads/2019/10/finanacial-guidee-icon.svg" class="c-essential-guides__list-item-icon">
+                                  </div>
+                                  <div class="c-essential-guides__list-item item-1"style="background-color: #fff;">
+                                    <div class="c-essential-guides__list-item-text">
+                                                            <style>
+                                          .c-essential-guides__list-item.item-1 .c-essential-guides__list-item-title span {
+                                            color: green;
+                                          }
+                                        </style>
+                                                          <h3 class="c-essential-guides__list-item-title"><span style="float: left;color:#546cb6">Guide to</span> </br>Institutional Investor Onboarding</h3>
+                                      <p class="c-essential-guides__list-item-preview" style="font-family: montserrat light;color:#a3a3a3;">Skip vague resolutions like "get my finances in order." Real change means specific goals and actionable steps.</p>
+                                      <p><a href="financial-health/index.html" class="u-link c-essential-guides__list-item-link"style="font-family: 'MOMCAKE Bold';">Read the guide</a>
+                                    </div>
+                                                        <img src="wp-content/uploads/2019/10/finanacial-guidee-icon.svg" class="c-essential-guides__list-item-icon">
+                                                    </div>
+                                              <!-- <div class="c-essential-guides__list-item item-2">
+                  <div class="c-essential-guides__list-item-text">
+                                          <style>
+                        .c-essential-guides__list-item.item-2 .c-essential-guides__list-item-title span {
+                          color: grey;
+                        }
+                      </style>
+                                        <h3 class="c-essential-guides__list-item-title"><span style="float: left;color:#546cb6">Guide to</span> </br>Institutional Investor Onboarding</h3>
+                    <p class="c-essential-guides__list-item-preview">There's huge potential upside to equity — but we also know it can be overwhelming.</p>
+                    <p><a href="equity-ipo-guide/index.html" class="u-link c-essential-guides__list-item-link">Read the guide</a>
+                  </div>
+                                      <img src="wp-content/uploads/2019/10/equity-and-ipos-icon.svg" class="c-essential-guides__list-item-icon">
+                                  </div> -->
+                                            
+                          </div>
+          </div>
+        </div>
+                      <div class="u-overflow--hidden">
+    <div class="o-grid__row o-grid--left c-archive__category-wrapper">
+      <span class="c-archive__category-bg" style="background-image: url(wp-content/uploads/2020/11/rupixen-com-Q59HmzK38eQ-unsplash-scaled-540x0-c-default.jpg);"></span>
+      <div class="o-grid__col o-grid__col-large--12 o-grid__col--10 o-grid__push-large--0 o-grid__push--1 c-archive__category--content">
+        <div class="c-archive__category">
+          <h2 class="c-archive__category-title"style="font-size: 52px;font-family: 'MOMCAKE Bold';">Industry Insights</h2>
+          <p class="c-archive__category-title-decor"style="font-size: 52px; font-family: 'MOMCAKE Bold';opacity: 0.1;">Industry Insights</p>
+          <div class="o-grid__row c-archive__category-list">
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="switching-banks-heres-how-credit-cards-make-it-easier/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/11/rupixen-com-Q59HmzK38eQ-unsplash-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  4 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Switching Banks? Here’s How Credit Cards Make It Easier</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="how-traditional-banks-make-money-from-you/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/09/pexels-john-guccione-wwwadvergroupcom-3531895-1-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  5 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">How Traditional Banks Make Money from You</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="why-you-should-ditch-bank-branches/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/06/dustin-tramel-zpwpVBjMX3g-unsplash-1-1-scaled-e1603493500265-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  3 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Why You Should Ditch Bank Branches</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="banks-are-having-their-blockbuster-moment/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/06/5167599294_0cfa764501_o-1-e1603493731514-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  4 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Banks Are Having Their “Blockbuster Moment”</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="what-you-should-know-about-bank-fees/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/06/shot-by-cerqueira-MyEZ0ASmJ7c-unsplash-scaled-e1603493817614-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  5 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">What You Should Know About Bank Fees</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="covid-19-has-put-bank-digitization-on-fast-forward/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/05/Screen-Shot-2020-05-13-at-3.58.50-PM-1-255x170-c-default.png">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  4 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">COVID-19 Has Put Bank Digitization On Fast-Forward</div>
+                  </div>
+                </a>
+              </div>
+                      </div>
+          <a href="category/banking/index.html" class="c-btn c-btn--outline c-archive__category-more">See more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="u-overflow--hidden">
+    <div class="o-grid__row o-grid--right c-archive__category-wrapper c-archive__category--right">
+      <span class="c-archive__category-bg" style="background-image: url(wp-content/uploads/2021/04/META-IMAGE-540x0-c-default.jpg);"></span>
+      <div class="o-grid__col o-grid__col-large--12 o-grid__col--10 o-grid__push-large--0 o-grid__push--1 c-archive__category--content">
+        <div class="c-archive__category">
+          <h2 class="c-archive__category-title"style="font-size: 52px;font-family: 'MOMCAKE Bold';">Seminars</h2>
+          <p class="c-archive__category-title-decor"style="font-size: 52px;font-family: 'MOMCAKE Bold';opacity: 0.1;">Seminars</p>
+          <div class="o-grid__row c-archive__category-list">
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="build-your-socially-responsible-wealthfront-portfolio/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2021/04/META-IMAGE-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  3 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Build Your Socially Responsible Wealthfront Portfolio</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="tax-loss-harvesting-101/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2021/04/kelly-sikkema-y_HlzTZxiSY-unsplash-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  7 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Tax-Loss Harvesting 101</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="how-to-choose-between-a-taxable-and-tax-advantaged-investment-account/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2021/02/vladislav-babienko-KTpSVEcU0XU-unsplash-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  8 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">How to Choose Between Taxable and Tax-Advantaged Investment Accounts</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="unsure-about-investing-because-of-gamestop/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2021/02/pexels-andrea-piacquadio-3800149-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  3 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Unsure About Investing Because of GameStop? Don’t Be</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="saving-for-long-term-goals-use-an-investment-account/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2021/01/pexels-enric-cruz-lo%cc%81pez-6039250-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  4 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">Saving for Long-Term Goals? Use an Investment Account</div>
+                  </div>
+                </a>
+              </div>
+                                        <div class="o-grid__col o-grid__col-mobile--12 o-grid__col-large--4 o-grid__col--4 c-archive__category-item">
+                <a href="how-wealthfronts-tlh-pays-for-itself/index.html" class="c-post__related-post c-archive__category-link">
+                  <div class="rp4wp_component rp4wp_component_image rp4wp_component_2">
+                                                                                                                                <img src="wp-content/uploads/2020/11/pexels-olia-danilevich-5466791-scaled-255x170-c-default.jpg">
+                  </div>
+                  <div class="c-archive__category-link-content">
+                    <div class="u-small-text c-archive__category-item-cat"style="font-size: 12px;color: #a3a3a3;">
+  5 min read
+</div>
+                    <div class="rp4wp_component rp4wp_component_title rp4wp_component_4"style="font-family: 'MOMCAKE Bold';">How Wealthfront&#8217;s Tax-Loss Harvesting Could Cover Your Advisory Fee</div>
+                  </div>
+                </a>
+              </div>
+                      </div>
+          <a href="category/investing/index.html" class="c-btn c-btn--outline c-archive__category-more">See more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+          </section>
+  </article>
+  </main>
+
+            <footer class="c-footer"style="background:#A3A3A3;">
+  <div class="o-grid__row">
+    <div class="o-grid__col o-grid__col-large--12 o-grid__col--2">
+      <a href="index.html" class="c-footer__home">
+        <div class="flogo_info">
+          <a href="index.html"><img src="images/logo.png"></a>
+      </div>
+       
+          
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 19.9016L20.9989 19.839C20.9845 19.8131 20.9557 19.7799 20.9074 19.7377C16.3216 15.9257 16.8988 7.95121 18.2013 0.549452C18.2537 0.251415 18.2891 0.0521697 18.0565 0.0244778C16.5749 -0.151901 11.6383 0.669388 10.2214 1.06356C9.85264 1.16613 9.81947 1.2748 9.81324 1.51232C9.42441 16.3288 18.3593 19.4308 20.7874 19.9135C20.8425 19.9245 20.9637 19.9384 21 19.9016ZM8.10045 5.67232C6.28159 6.03362 4.59791 6.73881 3.14099 7.37216C3.0129 7.4096 2.80828 7.63162 2.86127 7.90767C3.4359 10.901 6.23818 19.3414 16.952 19.9983C17.1984 20.0098 17.4472 19.9637 17.253 19.8404C15.8081 18.7085 10.6701 17.5444 8.56955 6.09761C8.54808 5.98064 8.55094 5.53535 8.10045 5.67232ZM2.95945 12.6998C2.32107 13.0917 0.675222 14.1923 0.0847922 14.7594C-0.0321082 14.8716 -0.00952701 14.9511 0.041964 15.1426C0.518557 16.9146 3.33084 20.0208 10.3173 19.7796C10.6475 19.7682 10.649 19.6652 10.4767 19.5352C10.3645 19.4505 8.15627 18.7278 6.13748 16.8342C5.12737 15.8867 4.09998 14.4472 3.41069 13.079C3.23956 12.7055 3.15305 12.5809 2.95945 12.6998Z" fill="#4840BB"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="20">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 19.9016L20.9989 19.839C20.9845 19.8131 20.9557 19.7799 20.9074 19.7377C16.3216 15.9257 16.8988 7.95121 18.2013 0.549452C18.2537 0.251415 18.2891 0.0521697 18.0565 0.0244778C16.5749 -0.151901 11.6383 0.669388 10.2214 1.06356C9.85264 1.16613 9.81947 1.2748 9.81324 1.51232C9.42441 16.3288 18.3593 19.4308 20.7874 19.9135C20.8425 19.9245 20.9637 19.9384 21 19.9016ZM8.10045 5.67232C6.28159 6.03362 4.59791 6.73881 3.14099 7.37216C3.0129 7.4096 2.80828 7.63162 2.86127 7.90767C3.4359 10.901 6.23818 19.3414 16.952 19.9983C17.1984 20.0098 17.4472 19.9637 17.253 19.8404C15.8081 18.7085 10.6701 17.5444 8.56955 6.09761C8.54808 5.98064 8.55094 5.53535 8.10045 5.67232ZM2.95945 12.6998C2.32107 13.0917 0.675222 14.1923 0.0847922 14.7594C-0.0321082 14.8716 -0.00952701 14.9511 0.041964 15.1426C0.518557 16.9146 3.33084 20.0208 10.3173 19.7796C10.6475 19.7682 10.649 19.6652 10.4767 19.5352C10.3645 19.4505 8.15627 18.7278 6.13748 16.8342C5.12737 15.8867 4.09998 14.4472 3.41069 13.079C3.23956 12.7055 3.15305 12.5809 2.95945 12.6998Z" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+</g>
+</svg>
+      </a>
+    </div>
+    <div class="o-grid__col o-grid__col-large--12 o-grid__col--10">
+              <ul class="o-list-bare c-footer__nav c-footer__nav--main">
+                      <!-- <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11524 menu-item-has-children c-footer__item">
+              <a href="/Team.html" class="c-footer__link c-footer__link--heading" data-footer-children>Team</a>
+                  </li> -->
+                  <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11534 c-footer__item">
+                    <a href="/Team.html" class="c-footer__link c-footer__link--heading"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Team</a>
+                                </li>
+                      <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11534 c-footer__item">
+              <a href="#" class="c-footer__link c-footer__link--heading"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">About</a>
+                          </li>
+                      <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11531 c-footer__item">
+              <a href="/Insights.html" class="c-footer__link c-footer__link--heading"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Insights</a>
+                          </li>
+                      <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11532 c-footer__item">
+              <a href="#" class="c-footer__link c-footer__link--heading"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Contact</a>
+                          </li>
+                      <li class=" menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11533 c-footer__item">
+              <a href="#" class="c-footer__link c-footer__link--heading"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Log In</a>
+                          </li>
+                      <li class=" menu-item menu-item-type-custom menu-item-object-custom menu-item-12094 c-footer__item">
+              <a href="https://saxondemo1.netlify.app/" class="c-footer__link c-footer__link--heading"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">SaxonWeber.com</a>
+                          </li>
+                  </ul>
+                    <ul class="o-list-bare c-footer__nav c-footer__nav--secondary">
+                      <li class="c-footer__item">
+              <a href="#" class="c-footer__link"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Contact</a>
+            </li>
+                      <li class="c-footer__item">
+              <a href="#" class="c-footer__link"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Legal</a>
+            </li>
+                      <li class="c-footer__item">
+              <a href="#" class="c-footer__link"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">Career</a>
+            </li>
+                      <li class="c-footer__item">
+              <a href="#" class="c-footer__link"style="color:#010F14;font-family: 'MOMCAKE', sans-serif;">FAQ</a>
+            </li>
+                     
+                                <li class="c-footer__item c-footer__item--socials">
+                           
+                
+                <a href="#"><i class="second-iocon"><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
+
+          <a href="#"><i class="second-iocon"><i class="fa fa-twitter-square" aria-hidden="true"></i></i></a>
+
+          <a href="https://www.linkedin.com/company/saxon-weber/"><i class="second-iocon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a>
+
+          <a href="https://www.facebook.com/SaxonWeberIB"><i class="second-iocon"><i class="fa fa-facebook-official" aria-hidden="true"></i></i></a>
+
+          <a href="https://pitchbook.com/" target="blank"><img class="pitchbook" src="/images/600x600wa.png"></a>
+                <a href="https://pitchbook.com/" target="blank"><img class="pitchbook" src="/saxon weber/images/600x600wa.png"></a>
+                          </li>
+                  </ul>
+                
+            <div style="color:#010F14;font-family: 'montserrat light';">
+              <img src="/saxon weber/images/footerlogo.png" class="fimage">
+              
+              <p style=" text-align: justify;">
+                
+                 
+                This site is operated by Saxon Weber (“Company”), which is not a registered broker-dealer. The Company does not give investment advice, endorsement, analysis or recommendations with respect to any securities. All securities posted here are being offered by, and all information included on this site is the responsibility of, the applicable issuer of such securities. The Company has not taken steps to verify the adequacy, accuracy, or completeness of the information. Neither the Company nor any of its officers, directors, agents and employees makes any warranty, express or implied, of any kind related to the adequacy, accuracy or completeness of any information on this site or the use of information on this site.</p>
+<!-- <p>By using this website, you understand the information being presented is provided for informational purposes only and agree to our <a href="https://www.wealthfront.com/legal/terms" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.wealthfront.com/legal/terms&amp;source=gmail&amp;ust=1575491502357000&amp;usg=AFQjCNH9qi-6sbcAjoRBSd1OYf7NyiT9Lg">Terms of Use</a> and <a href="https://www.wealthfront.com/legal/privacy" target="_blank" rel="noopener" data-saferedirecturl="https://www.google.com/url?q=https://www.wealthfront.com/legal/privacy&amp;source=gmail&amp;ust=1575491502357000&amp;usg=AFQjCNHtFPDH1T-Zq95k1rDPhk36EFcrOw">Privacy Policy</a>. Nothing in this communication should be construed as an offer, recommendation, or solicitation to buy or sell any security. Additionally, Wealthfront Advisers or its affiliates do not provide tax advice and investors are encouraged to consult with their personal tax advisors.</p>
+<p>Wealthfront, Wealthfront Advisers and Wealthfront Brokerage are wholly owned subsidiaries of Wealthfront Corporation.</p>
+<p>© 2021 Wealthfront Corporation. All rights reserved.</p> -->
+
+<p style=" text-align: justify;">By accessing this site and any pages thereof, you agree to be bound by the <a style="color: #546cb6;font-family: 'montserrat light';"href="https://www.saxonweber.com/terms-of-use/">Terms of Use</a> and <a style="color: #546cb6;font-family: 'montserrat light';" href="https://www.saxonweber.com/privacy-policy/">Privacy Policy</a>.
+  Securities offered through North Capital Private Securities (&#8220;NCPS&#8221;), Member <a style="color: #546cb6;font-family: 'montserrat light';" href="https://www.finra.org/">FINRA</a>/<a style="color: #546cb6;font-family: 'montserrat light';"href="https://www.sipc.org/">SIPC</a>, located at 623 East Ft. Union Blvd, Suite 101, Salt Lake City, UT 84047. NCPS does not make investment recommendations and no communication, through this website or in any other medium should be construed as a recommendation for any security offered on or off this investment platform. You can review the BrokerCheck for NCPS <a style="color: #546cb6;" href="https://brokercheck.finra.org/firm/summary/154559">here</a>. Investments in private offerings are speculative and involve a high degree of risk and those investors who cannot afford to lose their entire investment should not invest in such offerings. Investments in private offerings are illiquid and those investors who cannot hold an investment for an indeterminate period should not invest. Past performance is not indicative of future results.</p>
+</div>
+
+    </div>
+  </div>
+  <img height="1" width="1" style="display:none;" alt="" src="https://www.facebook.com/tr?id=369322073221814&amp;ev=PageView">
+  <img height="1" width="1" style="border-style:none;" alt="" src="#" id="wftpx">
+  <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.getElementById("wftpx").src = "https://www.wealthfront.com/tpx" +
+        "?p=" + location.pathname +
+        "&r=" + document.referrer +
+        "&h=" + location.hostname +
+        "&q=" + location.search;
+    });
+  </script>
+</footer>
+
+
+
+<script src="js/wow.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scripts.min564e.js"></script>
+
+
+
+<script>var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }</script>
+
+
+<script>
+
+
+  $(function(){
+
+      var swiper = new Swiper('.banner_info .swiper-container', {
+          spaceBetween: 0,
+          centeredSlides: true,
+          autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+          },
+      });
+
+      var swiper = new Swiper('.creatingopportunities_list .swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 0,
+          autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+          },
+          breakpoints: {
+              768: {
+                  slidesPerView: 2
+              },
+              639: {
+                  slidesPerView: 1
+              }
+          }
+      });
+
+
+      $('.peopleaboutninjacart_slider').slick({
+          // centerMode: true,
+          // centerPadding: '120px',
+          slidesToShow: 1,
+          responsive: [
+              {
+                  breakpoint: 980,
+                  settings: {
+                      centerPadding: '60px',
+                  }
+              },
+              {
+                  breakpoint: 639,
+                  settings: {
+                      centerPadding: '0',
+                  }
+              }
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+          ]
+      });
+
+
+      $('.reasonstobuy_slider').slick({
+          centerMode: true,
+          centerPadding: '120px',
+          slidesToShow: 3,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          responsive: [
+              {
+                  breakpoint: 1100,
+                  settings: {
+                      centerPadding: '60px',
+                  }
+              },
+              {
+                  breakpoint: 980,
+                  settings: {
+                      centerPadding: '60px',
+                      slidesToShow: 2,
+                  }
+              },
+              {
+                  breakpoint: 767,
+                  settings: {
+                      centerPadding: '0',
+                      slidesToShow: 2,
+                  }
+              },
+              {
+                  breakpoint: 639,
+                  settings: {
+                      centerPadding: '0',
+                      slidesToShow: 1,
+                  }
+              }
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+          ]
+      });
+
+
+      var swiper = new Swiper('.careerslifeatninjacart_list .swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 10,
+          loop: true,
+          autoplay: {
+              delay: 2500,
+              disableOnInteraction: false,
+          },
+          breakpoints: {
+              768: {
+                  slidesPerView: 2
+              },
+              639: {
+                  slidesPerView: 1
+              }
+          }
+      });
+  });
+
+</script>
+
+
+
+
+      
+      <div id="search-overlay" class="c-search-overlay">
+  <button type="button" class="c-search-overlay__close">
+    <i class="icon-close"></i>
+  </button>
+  <form method="get" id="searchform" action="https://blog.wealthfront.com/" class="searchform">
+	<input type="text" class="field" name="s" id="s" placeholder="Search by post, keyword...">
+</form>
+</div>  
+  <script type='text/javascript' src='wp-includes/js/imgareaselect/jquery.imgareaselect.min.js' id='imgareaselect-js'></script>
+<script type='text/javascript' id='thickbox-js-extra'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/blog.wealthfront.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-includes/js/thickbox/thickboxab87.js?ver=3.1-20121105' id='thickbox-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' async src='wp-includes/js/wp-embed.min.js' id='wp-embed-js'></script>
+
+  <script>
+			const inputContainer = document.getElementById('wfb_subscription-input-container');
+			const input = document.getElementById('wfb_subscription-input');
+			const inputField = document.getElementById('wfb_subscription-input-field');
+			const button = document.getElementById('wfb_subscription-button');
+			const errorMessage = document.getElementById('wfb_input-field-error-message');
+			const successMessage = document.getElementById('wfb_input-field-success-message');
+
+			inputContainer.addEventListener('click', (event) => {
+			input.classList.toggle("wfb_show");
+			inputField.focus();
+			});
+
+			inputField.addEventListener("mouseover", (event) => {
+			if (inputField.value == undefined || inputField.value == null || inputField.value == "") {
+			input.classList.add("wfb_active-input-field");
+			inputField.classList.add("wfb_active-input-field");
+			}
+			});
+
+			inputField.addEventListener("input", (event) => {
+			input.classList.remove("wfb_active-input-field");
+			inputField.classList.remove("wfb_active-input-field");
+			errorMessage.classList.remove("wfb_show");
+			});
+
+			function sendData() {
+
+			var email = jQuery(inputField).val();
+			var data = {
+			email: email
+			};
+			jQuery.ajax({
+			type: "post",
+			url: "/api-call",
+			data: data,
+			success: function (response) {
+				console.log('SUCCESS BLOCK');
+			},
+			error: function (response) {
+				console.log('ERROR BLOCK');
+			}
+			});
+			}
+
+			function submitResponse(event) {
+				event.preventDefault();
+				var email = inputField.value;
+				var isEmailValid = validateEmail(email);
+				if (! isEmailValid) {
+				errorMessage.classList.add("wfb_show");
+				input.classList.add("wfb_show_error");
+			} else {
+				errorMessage.classList.remove("wfb_show");
+				input.classList.remove("wfb_show");
+				input.classList.remove("wfb_show_error");
+				successMessage.classList.add("wfb_show");
+				button.classList.add("wfb_hide");
+				inputField.classList.add("wfb_hide");
+				inputContainer.classList.add("wfb_hide");
+			sendData();
+				}
+			}
+
+			function validateEmail(email) {
+				var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+				return re.test(String(email).toLowerCase());
+			}
+
+			button.addEventListener("click", submitResponse);
+		</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f361777eb6","applicationID":"366503504","transactionName":"NgQEZ0ICCBAHUhYMXQ9OJ1BECgkNSUEDAldMCQleVQ==","queueTime":0,"applicationTime":337,"atts":"GkMHEQoYGx4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from blog.wealthfront.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Jun 2021 11:09:37 GMT -->
+</html>
